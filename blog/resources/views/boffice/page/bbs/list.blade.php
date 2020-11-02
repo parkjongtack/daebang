@@ -855,7 +855,7 @@
     <div class="rightTitle">
         <h3>동영상 강의 리스트</h3>
         <div class="btnWrap">
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnActMovingWrite();">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url();">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -1049,7 +1049,7 @@
     <div class="rightTitle">
         <h3>클래스 강의 리스트</h3>
         <div class="btnWrap">
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnActCollegeWrite();">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url();">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -1228,7 +1228,7 @@
     <div class="rightTitle">
         <h3>서점 리스트</h3>
         <div class="btnWrap">
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnActBookWrite();">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url();">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -1390,7 +1390,7 @@
         <h3>학원강의</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -2632,7 +2632,7 @@
     <div class="rightTitle">
         <h3>무료 강의 리스트</h3>
         <div class="btnWrap">
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnActFreeLectWrite();">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url();">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -2848,7 +2848,7 @@
     <div class="rightTitle">
         <h3>견적 등록 리스트</h3>
         <div class="btnWrap">
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnActOcEstiWrite();">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url();">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -3947,7 +3947,7 @@
     <div class="rightTitle">
         <h3>현강생 관리</h3>
         <div class="btnWrap">
-            <button type="button" class="colorBtn rightbluebtn plusIcon" onclick="javascript:fnActStudentWrite();">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon" onclick="javascript:go_write_url();">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -5331,7 +5331,7 @@
         <h3>동영상강의 Q&amp;A</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -5504,7 +5504,7 @@
                 <li class="next text-ir"><a href="?pageIndex=11" onclick="fnListArticle(11);return false; " class="pn_next">다음</a></li>
                 <li class="next text-ir"><a href="?pageIndex=274" onclick="fnListArticle(274);return false; " class="pn_next">마지막</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -5515,7 +5515,7 @@
         <h3>서점 Q&amp;A</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -5694,7 +5694,7 @@
                 <li class="next text-ir"><a href="?pageIndex=11" onclick="fnListArticle(11);return false; " class="pn_next">다음</a></li>
                 <li class="next text-ir"><a href="?pageIndex=35" onclick="fnListArticle(35);return false; " class="pn_next">마지막</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -5705,7 +5705,7 @@
         <h3>1:1문의</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -5949,7 +5949,7 @@
                 <li class="next text-ir"><a href="?pageIndex=11" onclick="fnListArticle(11);return false; " class="pn_next">다음</a></li>
                 <li class="next text-ir"><a href="?pageIndex=1171" onclick="fnListArticle(1171);return false; " class="pn_next">마지막</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -5960,7 +5960,7 @@
         <h3>자유게시판</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -6199,7 +6199,7 @@
                 <li class="next text-ir"><a href="?pageIndex=11" onclick="fnListArticle(11);return false; " class="pn_next">다음</a></li>
                 <li class="next text-ir"><a href="?pageIndex=207" onclick="fnListArticle(207);return false; " class="pn_next">마지막</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -6210,7 +6210,7 @@
         <h3>동영상 학습 게시판</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -6436,7 +6436,7 @@
                 <li class="next text-ir"><a href="?pageIndex=11" onclick="fnListArticle(11);return false; " class="pn_next">다음</a></li>
                 <li class="next text-ir"><a href="?pageIndex=1366" onclick="fnListArticle(1366);return false; " class="pn_next">마지막</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -6447,7 +6447,7 @@
         <h3>FAQ</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -6705,7 +6705,7 @@
             <ul class="pagenation">
                 <li class="pn_paging_set pn_paging on"><a href="javascript:void(0);" class="pn_page">1</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -6716,7 +6716,7 @@
         <h3>학원소식</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -7069,7 +7069,7 @@
                 <li class="next text-ir"><a href="?pageIndex=11" onclick="fnListArticle(11);return false; " class="pn_next">다음</a></li>
                 <li class="next text-ir"><a href="?pageIndex=45" onclick="fnListArticle(45);return false; " class="pn_next">마지막</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -7080,7 +7080,7 @@
         <h3>공지사항</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -7360,7 +7360,7 @@
                 <li class="pn_paging_set pn_paging"><a href="?pageIndex=2" onclick="fnListArticle(2);return false; " class="pn_page">2</a></li>
                 <li class="pn_paging_set pn_paging"><a href="?pageIndex=3" onclick="fnListArticle(3);return false; " class="pn_page">3</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -7371,7 +7371,7 @@
         <h3>REAL 합격수기</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -7653,7 +7653,7 @@
                 <li class="next text-ir"><a href="?pageIndex=11" onclick="fnListArticle(11);return false; " class="pn_next">다음</a></li>
                 <li class="next text-ir"><a href="?pageIndex=49" onclick="fnListArticle(49);return false; " class="pn_next">마지막</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -7664,7 +7664,7 @@
         <h3>본원출신 합격자</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -7998,7 +7998,7 @@
                 <li class="next text-ir"><a href="?pageIndex=11" onclick="fnListArticle(11);return false; " class="pn_next">다음</a></li>
                 <li class="next text-ir"><a href="?pageIndex=17" onclick="fnListArticle(17);return false; " class="pn_next">마지막</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -8009,7 +8009,7 @@
         <h3>시험공고</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -8251,7 +8251,7 @@
                 <li class="next text-ir"><a href="?pageIndex=11" onclick="fnListArticle(11);return false; " class="pn_next">다음</a></li>
                 <li class="next text-ir"><a href="?pageIndex=268" onclick="fnListArticle(268);return false; " class="pn_next">마지막</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -8262,7 +8262,7 @@
         <h3>경쟁률 및 합격선</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -8448,7 +8448,7 @@
                 <li class="next text-ir"><a href="?pageIndex=11" onclick="fnListArticle(11);return false; " class="pn_next">다음</a></li>
                 <li class="next text-ir"><a href="?pageIndex=61" onclick="fnListArticle(61);return false; " class="pn_next">마지막</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -8459,7 +8459,7 @@
         <h3>수험가 뉴스</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -8645,7 +8645,7 @@
                 <li class="next text-ir"><a href="?pageIndex=11" onclick="fnListArticle(11);return false; " class="pn_next">다음</a></li>
                 <li class="next text-ir"><a href="?pageIndex=61" onclick="fnListArticle(61);return false; " class="pn_next">마지막</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -8656,7 +8656,7 @@
         <h3>학습자료실</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -8842,7 +8842,7 @@
                 <li class="next text-ir"><a href="?pageIndex=11" onclick="fnListArticle(11);return false; " class="pn_next">다음</a></li>
                 <li class="next text-ir"><a href="?pageIndex=314" onclick="fnListArticle(314);return false; " class="pn_next">마지막</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -8853,7 +8853,7 @@
         <h3>정오표</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -9052,7 +9052,7 @@
                 <li class="pn_paging_set pn_paging"><a href="?pageIndex=6" onclick="fnListArticle(6);return false; " class="pn_page">6</a></li>
                 <li class="pn_paging_set pn_paging"><a href="?pageIndex=7" onclick="fnListArticle(7);return false; " class="pn_page">7</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -9060,10 +9060,10 @@
 @elseif(request()->segment(2) == 'community' && request()->segment(3) == 'bookstore')
 <section class="rightCont">
     <div class="rightTitle">
-        <h3>인터넷서점 공지사항</h3>
+        <h3>기본 설정 관리</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -9161,7 +9161,7 @@
             <ul class="pagenation">
                 <li class="pn_paging_set pn_paging on"><a href="javascript:void(0);" class="pn_page">1</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -9172,7 +9172,7 @@
         <h3>모의고사 다운로드</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -9507,7 +9507,7 @@
                 <li class="pn_paging_set pn_paging"><a href="?pageIndex=2" onclick="fnListArticle(2);return false; " class="pn_page">2</a></li>
                 <li class="pn_paging_set pn_paging"><a href="?pageIndex=3" onclick="fnListArticle(3);return false; " class="pn_page">3</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
+            <button type="button" class="right act_write" onclick="javascript:go_write_url(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -9518,7 +9518,7 @@
         <h3>인터넷서점 공지사항</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn act_ins" onclick="fnListArticle('1'); return false;">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnWriteArticle(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -9722,7 +9722,6 @@
             <ul class="pagenation">
                 <li class="pn_paging_set pn_paging on"><a href="javascript:void(0);" class="pn_page">1</a></li>
             </ul>
-            <button type="button" class="right act_write" onclick="javascript:fnWriteArticle(); return false;">글쓰기</button>
         </div>
         <!-- //pagingType03 -->
     </div>
@@ -12861,4 +12860,16 @@
     </div>
 </section>
 @endif
+<script type="text/javascript">
+    var seg2 = '{{@request()->segment(2)}}'+'/';
+    var seg3 = '{{@request()->segment(3)}}'+'/';
+
+    function go_write_url(){
+        location.href = "/boffice/"+seg2+seg3+'write';
+    }
+
+    function go_modify_url(){
+        location.href = "/boffice/"+seg2+seg3+'modify';
+    }
+</script>
 </section>

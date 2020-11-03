@@ -2,7 +2,7 @@
 @if(request()->segment(2) == 'lecture' && request()->segment(3) == 'video')
 <section class="rightCont">
     <div class="rightTitle">
-        <h3>동영상강의 등록</h3>
+        <h3>동영상강의 수정</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnActMovingModify('new');">등록</button>
 
@@ -449,10 +449,10 @@
             </fieldset>
 
             <fieldset>
-                <p>교재 등록</p>
+                <p>교재 수정</p>
                 <table class="rowTable">
                     <caption class="blind">
-                        교재 등록
+                        교재 수정
                     </caption>
                     <colgroup>
                         <col width="130px" />
@@ -460,7 +460,7 @@
                     </colgroup>
                     <tbody>
                         <tr>
-                            <th scope="row">교재 등록</th>
+                            <th scope="row">교재 수정</th>
                             <td>
                                 <button type="button" class="colorBtn rightbluebtn plusIcon act_ins act_book_add">검색</button>
                                 <p class="checkBox">
@@ -638,7 +638,7 @@
 @elseif(request()->segment(2) == 'lecture' && request()->segment(3) == 'video_detail')
 <section class="rightCont">
     <div class="rightTitle">
-        <h3>강의 등록</h3>
+        <h3>강의 수정</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnActMovingList();">목록</button>
         </div>
@@ -680,7 +680,7 @@
                 <input type="hidden" name="cpIdx" value="157960" />
                 <table class="rowTable">
                     <caption>
-                        강의 등록 테이블
+                        강의 수정 테이블
                     </caption>
                     <colgroup>
                         <col width="130px" />
@@ -731,7 +731,7 @@
             <form name="frmSmp" id="frmSmp" method="post">
                 <table class="rowTable">
                     <caption>
-                        강의 등록 테이블
+                        강의 수정 테이블
                     </caption>
                     <colgroup>
                         <col width="130px" />
@@ -784,7 +784,7 @@
                 <input type="hidden" name="cpIdx" value="157966" />
                 <table class="rowTable">
                     <caption>
-                        강의 등록 테이블
+                        강의 수정 테이블
                     </caption>
                     <colgroup>
                         <col width="130px" />
@@ -824,7 +824,7 @@
                 <input type="hidden" name="cpIdx" value="158025" />
                 <table class="rowTable">
                     <caption>
-                        강의 등록 테이블
+                        강의 수정 테이블
                     </caption>
                     <colgroup>
                         <col width="130px" />
@@ -864,7 +864,7 @@
                 <input type="hidden" name="cpIdx" value="158026" />
                 <table class="rowTable">
                     <caption>
-                        강의 등록 테이블
+                        강의 수정 테이블
                     </caption>
                     <colgroup>
                         <col width="130px" />
@@ -911,7 +911,7 @@
             <form name="frmClip" id="frmClip" method="post">
                 <table class="rowTable">
                     <caption>
-                        강의 등록 테이블
+                        강의 수정 테이블
                     </caption>
                     <colgroup>
                         <col width="130px" />
@@ -952,7 +952,7 @@
 @elseif(request()->segment(2) == 'lecture' && request()->segment(3) == 'class')
 <section class="rightCont">
     <div class="rightTitle">
-        <h3>클래스강의 등록</h3>
+        <h3>클래스강의 수정</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnActCollegeModify('new');">등록</button>
 
@@ -1342,7 +1342,7 @@
 @elseif(request()->segment(2) == 'lecture' && request()->segment(3) == 'bookstore')
 <section class="rightCont">
     <div class="rightTitle">
-        <h3>서적 등록</h3>
+        <h3>서적 수정</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnActBookModify('new');">등록</button>
 
@@ -1823,7 +1823,7 @@
 @elseif(request()->segment(2) == 'order' && request()->segment(3) == 'video')
 <section class="rightCont">
     <div class="rightTitle">
-        <h3>동영상강의 등록</h3>
+        <h3>동영상강의 수정</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn plusIcon act_mod">수정</button>
             <button type="button" class="colorBtn rightbluebtn plusIcon act_del" onclick="javascript:fnActOrderDel('271859');">삭제</button>
@@ -2289,7 +2289,7 @@
 @elseif(request()->segment(2) == 'order' && request()->segment(3) == 'bookstore')
 <section class="rightCont">
     <div class="rightTitle">
-        <h3>동영상강의 등록</h3>
+        <h3>동영상강의 수정</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn plusIcon act_mod">수정</button>
             <button type="button" class="colorBtn rightbluebtn plusIcon act_del" onclick="javascript:fnActOrderDel('216215');">삭제</button>
@@ -2585,7 +2585,7 @@
 @elseif(request()->segment(2) == 'order' && request()->segment(3) == 'estimate')
 <section class="rightCont">
     <div class="rightTitle">
-        <h3>견적 등록</h3>
+        <h3>견적 수정</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn plusIcon act_list">목록</button>
         </div>

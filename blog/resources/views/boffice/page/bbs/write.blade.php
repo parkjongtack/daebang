@@ -14156,5 +14156,209 @@
 
     </div>
 </section>
+@elseif(request()->segment(2) == 'site' && request()->segment(3) == 'authority_detail')
+<section class="rightCont">
+    <div class="rightTitle">
+        <h3>권한 설정</h3>
+        <div class="btnWrap">
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnActGroupModify('edit');">저장</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnActGroupList();">목록</button>
+        </div>
+    </div>
+    <div class="realCont">
+        <form name="frm" id="actGroupModifyForm" method="post">
+            <input type="hidden" name="pageIndex" value="1" />
+            <input type="hidden" name="searchCnd" value="groupNm" />
+            <input type="hidden" name="searchKeyword" value="" />
+
+            <input type="hidden" name="groupId" value="G000050" />
+            <table class="commonTable writeTable">
+                <caption class="blind">
+                    권한 설정
+                </caption>
+                <colgroup>
+                    <col width="170px" />
+                    <col width="*" />
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th scope="row" style="border-right: 1px solid #e7e7e7;"><label for="title">관리자 권한 명칭</label></th>
+                        <td class="v2">테스트확인용</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="commonTable writeTable">
+                <caption class="blind">
+                    권한 설정
+                </caption>
+                <colgroup>
+                    <col width="170px" />
+                    <col width="230px" />
+                    <col width="*" />
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="8" style="border-right: 1px solid #e7e7e7;"><label for="title">권한 목록</label></th>
+
+                        <td class="v2" style="border-right: 1px solid #e7e7e7;"><input type="checkbox" class="check_all" style="width: 25px;" />강좌 서점 관리</td>
+                        <td class="v2">
+                            <ul>
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="101" />카테고리 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="102" />동영상 강의 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="147" />클래스강의 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="103" />인터넷 서점 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="104" />학원 강의 관리</li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="v2" style="border-right: 1px solid #e7e7e7;"><input type="checkbox" class="check_all" style="width: 25px;" />주문 관리</td>
+                        <td class="v2">
+                            <ul>
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="105" />동영상 주문 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="152" />연장 신청 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="106" />서점 주문 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="107" />무료 강의 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="108" />견적 관리</li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="v2" style="border-right: 1px solid #e7e7e7;"><input type="checkbox" class="check_all" style="width: 25px;" />회원 관리</td>
+                        <td class="v2">
+                            <ul>
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="109" />전체 회원 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="110" />수강 회원 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="112" />교수 회원 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="151" />회원 탈퇴 및 삭제</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="156" />현강생 관리</li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="v2" style="border-right: 1px solid #e7e7e7;"><input type="checkbox" class="check_all" style="width: 25px;" />통계</td>
+                        <td class="v2">
+                            <ul>
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="113" />동영상 매출 통계</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="153" />연장 신청 매출 통계</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="114" />서적 매출 통계</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="115" />교수별 정산</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="116" />학습 게시판 답변 현황</li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="v2" style="border-right: 1px solid #e7e7e7;"><input type="checkbox" class="check_all" style="width: 25px;" />고객센터</td>
+                        <td class="v2">
+                            <ul>
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="117" />동영상 Q&amp;A관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="118" />서점 Q&amp;A관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="119" />1:1문의 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="120" />자유게시판 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="121" />동영상 학습 게시판 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="122" />FAQ</li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="v2" style="border-right: 1px solid #e7e7e7;"><input type="checkbox" class="check_all" style="width: 25px;" />커뮤니티</td>
+                        <td class="v2">
+                            <ul>
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="124" />학원소식</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="125" />공지사항</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="148" />합격수기 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="149" />본원출식 합격자 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="126" />시험공고</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="127" />경쟁률 및 합격선</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="128" />수험가 뉴스</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="129" />학습자료실</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="130" />정오표</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="154" />인터넷서점공지사항</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="150" />모의고사 다운로드</li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="v2" style="border-right: 1px solid #e7e7e7;"><input type="checkbox" class="check_all" style="width: 25px;" />모바일 관리</td>
+                        <td class="v2">
+                            <ul>
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="135" />기본 설정 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="136" />접속 현황</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="137" />강의 다운로드 현황</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="138" />강의 다운로드 삭제 현황</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="139" />단말기 승인 현황</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="140" />단말기 해제 현황</li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="v2" style="border-right: 1px solid #e7e7e7;"><input type="checkbox" class="check_all" style="width: 25px;" />사이트 관리</td>
+                        <td class="v2">
+                            <ul>
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="141" />메인 페이지 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="142" />코드 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="143" />게시판 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="144" />관리자 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="145" />장바구니 공지 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="146" />권한 관리</li>
+
+                                <li><input type="checkbox" name="menuCode" style="width: 30px;" value="155" />OTP 등록</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <!-- //writeType03 -->
+    </div>
+</section>
 @elseif(request()->segment(2) == 'site' && request()->segment(3) == 'otp')
 @endif

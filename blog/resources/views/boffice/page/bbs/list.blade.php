@@ -1022,7 +1022,7 @@ function fnCodeIdAdd(codeGb){
                     <td class="list-no">1702</td>
                     <td>영양교사</td>
                     <td class="al">
-                        <a href="javascript:void(0);" onclick="javascript:fnActMovingView('8074');">2021 영양교사 실전모의고사 (김)</a>
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url();">2021 영양교사 실전모의고사 (김)</a>
                         <i class="tableIcon popular">인기</i>
                         <i class="tableIcon new">NEW</i>
                     </td>
@@ -1036,9 +1036,9 @@ function fnCodeIdAdd(codeGb){
                     <td>보임</td>
                     <td>2020-10-06</td>
                     <td>
-                        <button type="button" class="commonBtn" onclick="javascript:fnActMovingClip('8074');">강의등록</button>
-                        <button type="button" class="commonBtn" onclick="javascript:fnActMovingView('8074');">수정</button>
-                        <button type="button" class="commonBtn" onclick="javascript:fnActMovingDel('8074');">삭제</button>
+                        <button type="button" class="commonBtn" onclick="javascript:go_write_url2();">강의등록</button>
+                        <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
+                        <button type="button" class="commonBtn" onclick="javascript:fnActMovingDel();">삭제</button>
                     </td>
                 </tr>
             </tbody>
@@ -1203,7 +1203,7 @@ function fnCodeIdAdd(codeGb){
                     <td>보임</td>
                     <td>2020-10-06</td>
                     <td>
-                        <button type="button" class="commonBtn" onclick="javascript:fnActCollegeView('140');">수정</button>
+                        <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                         <button type="button" class="commonBtn" onclick="javascript:fnActCollegeDel('140');">삭제</button>
                     </td>
                 </tr>
@@ -1223,7 +1223,7 @@ function fnCodeIdAdd(codeGb){
                     <td>보임</td>
                     <td>2020-09-14</td>
                     <td>
-                        <button type="button" class="commonBtn" onclick="javascript:fnActCollegeView('139');">수정</button>
+                        <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                         <button type="button" class="commonBtn" onclick="javascript:fnActCollegeDel('139');">삭제</button>
                     </td>
                 </tr>
@@ -1356,7 +1356,7 @@ function fnCodeIdAdd(codeGb){
                     <td>289</td>
                     <td class="al">
                         <img src="/cmm/fms/getImage.do?atchFileId=FILE_000000000022389&amp;fileSn=0" class="img" style="float:left;width:30px;height:40px;margin-right:4px;">
-                        <a href="javascript:void(0);" onclick="javascript:fnActBookView('4410');" class="act_modi">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('4410');" class="act_modi">
                               <b class="goods title">2021 EBS 원픽 환경보건</b>
                         </a>
                         <br>
@@ -1372,7 +1372,7 @@ function fnCodeIdAdd(codeGb){
                     <td>보임</td>
                     <td>2020-09-01</td>
                     <td>
-                        <button type="button" class="commonBtn" onclick="javascript:fnActBookView('4410');">수정</button>
+                        <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                         <button type="button" class="commonBtn" onclick="javascript:fnActBookDel('4410');">삭제</button>
                     </td>
                 </tr>
@@ -1518,7 +1518,7 @@ function fnCodeIdAdd(codeGb){
                         <td>73971</td>
                         <td>0</td>
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('73971', 'BBS_0003');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('73971', 'BBS_0003');">
 								간호직 공무원
 							</a>
                         </td>
@@ -1527,7 +1527,7 @@ function fnCodeIdAdd(codeGb){
                         <td style="color:#FF0000;">보임</td>
                         <td>2019-05-13</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('73971');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('73971');">삭제</button>
                         </td>
                     </tr>
@@ -1543,7 +1543,7 @@ function fnCodeIdAdd(codeGb){
                         <td>7391</td>
                         <td>0</td>
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('73971', 'BBS_0003');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('73971', 'BBS_0003');">
 								간호직 공무원
 							</a>
                         </td>
@@ -1552,7 +1552,7 @@ function fnCodeIdAdd(codeGb){
                         <td style="color:#FF0000;">보임</td>
                         <td>2019-05-13</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('73971');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('73971');">삭제</button>
                         </td>
                     </tr>
@@ -1717,12 +1717,12 @@ function fnCodeIdAdd(codeGb){
                             </span>
                         </td>
                         <td rowspan="1" class="list-no">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271859');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271859');">
                                 2358
                             </a>
                         </td>
                         <td rowspan="1">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271859');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271859');">
                                 <div class="date">2020-10-29</div>
                                 <div class="ord-mobile">mobile</div>
                             </a>
@@ -1730,7 +1730,7 @@ function fnCodeIdAdd(codeGb){
                         <td><div class="ord-pc">PC</div></td>
                         <td>단과</td>
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271859');"> 2021 지역사회간호 (정규이론반)</a>
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271859');"> 2021 지역사회간호 (정규이론반)</a>
                         </td>
                         <td class="ar chkmoney">150,000</td>
                         <td rowspan="1">
@@ -1760,12 +1760,12 @@ function fnCodeIdAdd(codeGb){
                             </span>
                         </td>
                         <td rowspan="2" class="list-no">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271858');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271858');">
                                 2357
                             </a>
                         </td>
                         <td rowspan="2">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271858');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271858');">
                                 <div class="date">2020-10-29</div>
                                 <div class="ord-pc">PC</div>
                             </a>
@@ -1776,7 +1776,7 @@ function fnCodeIdAdd(codeGb){
                             <button type="button" class="commonBtn act_lecture" data-no="271858" data-sno="313253">강좌변경</button>
                         </td>
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271858');"> 식품위생직 공무원 - 공개경쟁(5) FP반</a>
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271858');"> 식품위생직 공무원 - 공개경쟁(5) FP반</a>
                         </td>
                         <td class="ar chkmoney">1,700,000</td>
                         <td rowspan="2">
@@ -1805,7 +1805,7 @@ function fnCodeIdAdd(codeGb){
                             <button type="button" class="commonBtn act_lecture" data-no="271858" data-sno="313254">강좌변경</button>
                         </td>
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271858');"> 식품위생직 공무원 - 공개경쟁(5) FP반</a>
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271858');"> 식품위생직 공무원 - 공개경쟁(5) FP반</a>
                         </td>
                         <td class="ar chkmoney">0</td>
                         <td>수강중</td>
@@ -1823,12 +1823,12 @@ function fnCodeIdAdd(codeGb){
                             </span>
                         </td>
                         <td rowspan="1" class="list-no">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271857');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271857');">
                                 2356
                             </a>
                         </td>
                         <td rowspan="1">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271857');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271857');">
                                 <div class="date">2020-10-29</div>
                                 <div class="ord-pc">PC</div>
                             </a>
@@ -1839,7 +1839,7 @@ function fnCodeIdAdd(codeGb){
                             <button type="button" class="commonBtn act_lecture" data-no="271857" data-sno="313252">강좌변경</button>
                         </td>
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271857');"> 영양교사 - 2021 실전 동형 모의고사</a>
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271857');"> 영양교사 - 2021 실전 동형 모의고사</a>
                         </td>
                         <td class="ar chkmoney">220,000</td>
                         <td rowspan="1">
@@ -1869,12 +1869,12 @@ function fnCodeIdAdd(codeGb){
                             </span>
                         </td>
                         <td rowspan="1" class="list-no">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271856');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271856');">
                                 2355
                             </a>
                         </td>
                         <td rowspan="1">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271856');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271856');">
                                 <div class="date">2020-10-29</div>
                                 <div class="ord-mobile">mobile</div>
                             </a>
@@ -1882,7 +1882,7 @@ function fnCodeIdAdd(codeGb){
                         <td><div class="ord-mobile">mobile</div></td>
                         <td>단과</td>
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271856');"> 이경연 교수의 식품화학개론 최신 이론완성반</a>
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271856');"> 이경연 교수의 식품화학개론 최신 이론완성반</a>
                         </td>
                         <td class="ar chkmoney">150,000</td>
                         <td rowspan="1">
@@ -1914,12 +1914,12 @@ function fnCodeIdAdd(codeGb){
                             </span>
                         </td>
                         <td rowspan="1" class="list-no">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271855');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271855');">
                                 2354
                             </a>
                         </td>
                         <td rowspan="1">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271855');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271855');">
                                 <div class="date">2020-10-29</div>
                                 <div class="ord-mobile">mobile</div>
                             </a>
@@ -1930,7 +1930,7 @@ function fnCodeIdAdd(codeGb){
                             <button type="button" class="commonBtn act_lecture" data-no="271855" data-sno="313250">강좌변경</button>
                         </td>
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271855');"> 영양교사 - [2021] 이론 및 심화완성</a>
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271855');"> 영양교사 - [2021] 이론 및 심화완성</a>
                         </td>
                         <td class="ar chkmoney">550,000</td>
                         <td rowspan="1">
@@ -1960,12 +1960,12 @@ function fnCodeIdAdd(codeGb){
                             </span>
                         </td>
                         <td rowspan="1" class="list-no">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271854');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271854');">
                                 2353
                             </a>
                         </td>
                         <td rowspan="1">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271854');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271854');">
                                 <div class="date">2020-10-28</div>
                                 <div class="ord-mobile">mobile</div>
                             </a>
@@ -1976,7 +1976,7 @@ function fnCodeIdAdd(codeGb){
                             <button type="button" class="commonBtn act_lecture" data-no="271854" data-sno="313249">강좌변경</button>
                         </td>
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271854');"> 영양사 - 44회 영양사 모의고사반</a>
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271854');"> 영양사 - 44회 영양사 모의고사반</a>
                         </td>
                         <td class="ar chkmoney">220,000</td>
                         <td rowspan="1">
@@ -2006,12 +2006,12 @@ function fnCodeIdAdd(codeGb){
                             </span>
                         </td>
                         <td rowspan="1" class="list-no">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271853');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271853');">
                                 2352
                             </a>
                         </td>
                         <td rowspan="1">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271853');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271853');">
                                 <div class="date">2020-10-28</div>
                                 <div class="ord-mobile">mobile</div>
                             </a>
@@ -2019,7 +2019,7 @@ function fnCodeIdAdd(codeGb){
                         <td><div class="ord-mobile">mobile</div></td>
                         <td>단과</td>
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271853');"> 이경연 교수의 식품화학개론 최신 이론완성반</a>
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271853');"> 이경연 교수의 식품화학개론 최신 이론완성반</a>
                         </td>
                         <td class="ar chkmoney">150,000</td>
                         <td rowspan="1">
@@ -2051,12 +2051,12 @@ function fnCodeIdAdd(codeGb){
                             </span>
                         </td>
                         <td rowspan="1" class="list-no">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271852');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271852');">
                                 2351
                             </a>
                         </td>
                         <td rowspan="1">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271852');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271852');">
                                 <div class="date">2020-10-28</div>
                                 <div class="ord-pc">PC</div>
                             </a>
@@ -2064,7 +2064,7 @@ function fnCodeIdAdd(codeGb){
                         <td><div class="ord-mobile">mobile</div></td>
                         <td>단과</td>
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271852');"> 2020 화학 기출문제 분석특강</a>
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271852');"> 2020 화학 기출문제 분석특강</a>
                         </td>
                         <td class="ar chkmoney">120,000</td>
                         <td rowspan="1">
@@ -2096,12 +2096,12 @@ function fnCodeIdAdd(codeGb){
                             </span>
                         </td>
                         <td rowspan="1" class="list-no">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271851');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271851');">
                                 2350
                             </a>
                         </td>
                         <td rowspan="1">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271851');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271851');">
                                 <div class="date">2020-10-28</div>
                                 <div class="ord-pc">PC</div>
                             </a>
@@ -2112,7 +2112,7 @@ function fnCodeIdAdd(codeGb){
                             <button type="button" class="commonBtn act_lecture" data-no="271851" data-sno="313246">강좌변경</button>
                         </td>
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('271851');"> 간호직 공무원 - 이론종합 (3)</a>
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('271851');"> 간호직 공무원 - 이론종합 (3)</a>
                         </td>
                         <td class="ar chkmoney">400,000</td>
                         <td rowspan="1">
@@ -2142,19 +2142,19 @@ function fnCodeIdAdd(codeGb){
 								</span>
 							</td>
 							<td rowspan="2" class="list-no">
-								<a href="javascript:void(0);" onclick="javascript:fnActOrderView('271787');">
+								<a href="javascript:void(0);" onclick="javascript:go_modify_url('271787');">
 								2286
 								</a>
 							</td>
 							<td rowspan="2">
-								<a href="javascript:void(0);" onclick="javascript:fnActOrderView('271787');">
+								<a href="javascript:void(0);" onclick="javascript:go_modify_url('271787');">
 								<div class="date">2020-10-25</div><div class="ord-mobile">mobile</div>
 								</a>
 							</td>
 							<td><div class="ord-pc">PC</div></td>
 							<td>단과</td>
 							<td class="al">
-								<a href="javascript:void(0);" onclick="javascript:fnActOrderView('271787');">
+								<a href="javascript:void(0);" onclick="javascript:go_modify_url('271787');">
 								2021 이승훈 공중보건 (정규이론반)</a>
 							</td>
 							<td class="ar chkmoney">200,000</td>
@@ -2223,6 +2223,414 @@ function fnCodeIdAdd(codeGb){
         <!-- //pagingType03 -->
     </div>
 </section>
+<div tabindex="-1" role="dialog" class="ui-dialog ui-corner-all ui-widget ui-widget-content ui-front ui-dialog-buttons ui-draggable" aria-describedby="lyr_doc_popup" aria-labelledby="ui-id-6" style="height: auto; width: 900px; top: 94.5px; left: 506px; display: block; z-index: 101;">
+    <div class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix ui-draggable-handle">
+        <span id="ui-id-6" class="ui-dialog-title">2020-10-29 김해나 - 강좌변경</span>
+        <button type="button" class="ui-button ui-corner-all ui-widget ui-button-icon-only ui-dialog-titlebar-close" title="Close">
+            <span class="ui-button-icon ui-icon ui-icon-closethick"></span><span class="ui-button-icon-space"> </span>Close
+        </button>
+    </div>
+    <div class="dialog ui-dialog-content ui-widget-content pop" id="lyr_doc_popup" style="display: block; width: auto; min-height: 0px; max-height: none; height: 660px;">
+        <body class="pop">
+            <script type="text/javascript">
+                function press(event) {
+                    if (event.keyCode == 13) {
+                        fnActBookList("1");
+                    }
+                }
+                function fnActMovingList(pageNo) {
+                    if (!form_val_chk($(".frmSearch"))) {
+                        return;
+                    }
+                    document.frm.pageIndex.value = pageNo;
+                    document.frm.action = "/boffice/actLecture/actMovingListPop2.do";
+                    document.frm.submit();
+                }
+                $(function () {
+                    $(document).on("click", ".act_select", function () {
+                        $cont = $(this).closest("tr");
+                        $("#frm_write input[name='proNew']").val($cont.data("no"));
+                        $("#selected_lecture").text($cont.find(".bname").text());
+                        $("#btn_submit").show();
+                        return false;
+                    });
+                    $(document).on("click", ".act_save", function () {
+                        $("#frm_write input[name=proNew]").removeClass().addClass("req");
+                        if (form_val_chk($("#frm_write"))) {
+                            var proVal = $("#frm_write input[name=jongLecture]").val();
+                            proVal = proVal.replace($("#frm_write select[name=lsno_org]").val(), $("#frm_write input[name=proNew]").val());
+                            $("#frm_write input[name=jongLecture]").val(proVal);
+                            var url = "/boffice/actOrder/transActOrderJongLect.do";
+                            var param = $("#frm_write").serialize();
+                            commonUtil.AjaxSynCall(url, param, "text", "수정되었습니다.");
+                            parent.location.reload();
+                        }
+                        return false;
+                    });
+                    $(document).on("click", ".act_del", function () {
+                        $("#frm_write input[name=proNew]").removeClass();
+                        if (form_val_chk($("#frm_write"))) {
+                            var proVal = $("#frm_write input[name=jongLecture]").val();
+                            proVal = proVal.replace($("#frm_write select[name=lsno_org]").val() + ",", "");
+                            proVal = proVal.replace("," + $("#frm_write select[name=lsno_org]").val(), "");
+                            $("#frm_write input[name=jongLecture]").val(proVal);
+                            var url = "/boffice/actOrder/transActOrderJongLect.do";
+                            var param = $("#frm_write").serialize();
+                            commonUtil.AjaxSynCall(url, param, "text", "수정되었습니다.");
+                            parent.location.reload();
+                        }
+                        return false;
+                    });
+                    //7854,7863,7845,7860
+                });
+            </script>
+            <form id="frm_write" name="frm_write" class="SearchForm">
+                <input type="hidden" name="sno" value="313252" />
+                <input type="hidden" name="jongLecture" value="8072,8073,8074" />
+                <input type="hidden" name="proNew" class="req" title="목록에서 강좌를 선택해주세요." />
+                <table class="rowTable">
+                    <colgroup>
+                        <col style="width: 100px;" />
+                        <col style="width: *;" />
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <th>종합강좌명</th>
+                            <th class="al">영양교사 - 2021 실전 동형 모의고사</th>
+                        </tr>
+                        <tr>
+                            <th>변경할강좌</th>
+                            <td>
+                                <select name="lsno_org" class="req" title="변경할강좌를 선택해주세요." style="width: 320px;">
+                                    <option value="">- 선택 -</option>
+        
+                                    <option value="8072">2021 영양교사 실전모의고사 (최)</option>
+        
+                                    <option value="8073">2021 영양교사 실전모의고사 (이)</option>
+        
+                                    <option value="8074">2021 영양교사 실전모의고사 (김)</option>
+                                </select>
+                                <button type="button" class="commonBtn act_del">삭제</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>선택한강좌</th>
+                            <td>
+                                <p id="selected_lecture"></p>
+                                <p id="btn_submit" style="margin-left: 20px; display: none;">
+                                    <span class="btnsWrap">
+                                        <button type="button" class="act_save" style="height: 28px;">변경</button>
+                                    </span>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        
+            <form name="frm" method="post" class="SearchForm frmSearch">
+                <input name="pageIndex" type="hidden" value="1" />
+                <input name="sapStatus" type="hidden" value="271857" />
+                <input name="searchMyAct" type="hidden" value="313252" />
+                <table class="rowTable">
+                    <colgroup>
+                        <col style="width: 100px;" />
+                        <col style="width: *;" />
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <th scope="row">카테고리</th>
+                            <td class="category_select" data-part="book">
+                                <p>
+                                    <select name="searchOp1" id="searchOp1" style="width: 250px; padding-left: 10px;">
+                                        <option value="">선택</option>
+        
+                                        <option value="CL00001">RNBSN</option>
+        
+                                        <option value="CL00002">간호관리</option>
+        
+                                        <option value="CL00003">간호사</option>
+        
+                                        <option value="CL00004">감염의료관계법규</option>
+        
+                                        <option value="CL00005">공중보건</option>
+        
+                                        <option value="CL00006">국어</option>
+        
+                                        <option value="CL00007">보건의료관계법규</option>
+        
+                                        <option value="CL00008">보건학</option>
+        
+                                        <option value="CL00009">보건행정</option>
+        
+                                        <option value="CL00010">사회</option>
+        
+                                        <option value="CL00011">생물</option>
+        
+                                        <option value="CL00012">식품미생물</option>
+        
+                                        <option value="CL00013">식품위생</option>
+        
+                                        <option value="CL00014">식품화학개론 이론</option>
+        
+                                        <option value="CL00015">역학</option>
+        
+                                        <option value="CL00016">영양교사</option>
+        
+                                        <option value="CL00017">영양사</option>
+        
+                                        <option value="CL00018">영어</option>
+        
+                                        <option value="CL00019">위생관계법규</option>
+        
+                                        <option value="CL00020">위생사</option>
+        
+                                        <option value="CL00021">의료관계법규</option>
+        
+                                        <option value="CL00022">지역사회</option>
+        
+                                        <option value="CL00023">지역사회간호</option>
+        
+                                        <option value="CL00024">한국사</option>
+        
+                                        <option value="CL00025">해부생리학</option>
+        
+                                        <option value="CL00026">행정법</option>
+        
+                                        <option value="CL00027">화학</option>
+        
+                                        <option value="CL00028">환경공학</option>
+        
+                                        <option value="CL00029">환경보건</option>
+        
+                                        <option value="CL00030">환경화학</option>
+        
+                                        <option value="CL00031">전공보건</option>
+        
+                                        <option value="CL00032">식품화학개론 문제</option>
+        
+                                        <option value="CL00033">면접특강</option>
+        
+                                        <option value="CL00034">보건교사</option>
+                                    </select>
+                                </p>
+                            </td>
+                            <th>노출여부</th>
+                            <td>
+                                <p>
+                                    <select name="searchOp2" id="">
+                                        <option value="" selected="">전체</option>
+                                        <option value="Y">보임</option>
+                                        <option value="N">숨김</option>
+                                    </select>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>검색어</th>
+                            <td colspan="3">
+                                <p>
+                                    <select name="searchCnd" title="검색유형선력">
+                                        <option value="0" selected="">전체</option>
+                                        <option value="1">강의명</option>
+                                        <option value="2">교수명</option>
+                                        <option value="3">수정일</option>
+                                    </select>
+                                </p>
+                                <p>
+                                    <input name="searchKeyword" type="text" size="35" class="shc_text" value="" maxlength="35" onkeypress="press(event);" title="검색단어입력" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>강좌가격</th>
+                            <td colspan="3">
+                                <p><input type="text" placeholder="원" class="chkmoney" name="searchOp3" value="" maxlength="19" /></p>
+                                ~
+                                <p><input type="text" placeholder="원" class="chkmoney" name="searchOp4" value="" maxlength="19" /></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>강좌등록일</th>
+                            <td colspan="3" class="daterange">
+                                <input class="calendar hasDatepicker" type="text" name="searchSdt" value="" readonly="" id="dp1604383722708" />
+                                ~
+                                <input class="calendar hasDatepicker" type="text" name="searchEdt" value="" readonly="" id="dp1604383722709" />
+                                <button type="button" class="grybtn setdate today">오늘</button>
+                                <button type="button" class="grybtn setdate week">일주일</button>
+                                <button type="button" class="grybtn setdate month">한달</button>
+                                <button type="button" class="grybtn setdate clear">전체</button>
+                                <p style="margin-left: 50px;">
+                                    <span class="btnsWrap">
+                                        <button type="button" class="" onclick="javascript:fnActMovingList('1'); return false;">검색</button>
+                                    </span>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        
+            <!--listTable-->
+            <p class="total" style="margin-top: 4px;">
+                <span class="total_left">총 <strong>1702</strong>개, 1 of 341 page</span>
+            </p>
+            <form id="frm_list" name="frm_list">
+                <input type="hidden" name="act" value="" />
+                <table class="commonTable">
+                    <caption>
+                        강의 검색 테이블
+                    </caption>
+                    <colgroup>
+                        <col width="40" />
+                        <col width="60" />
+                        <col />
+                        <col width="60" />
+                        <col width="90" />
+                        <col width="50" />
+                        <col width="100" />
+                        <col width="80" />
+                        <col width="50" />
+                        <col width="50" />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">번호</th>
+                            <th scope="col">과목</th>
+                            <th scope="col">강의명</th>
+                            <th scope="col">교수</th>
+                            <th scope="col">가격</th>
+                            <th scope="col">강의 수</th>
+                            <th scope="col">상태</th>
+                            <th scope="col">등록일</th>
+                            <th scope="col">노출</th>
+                            <th scope="col">선택</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-no="8074">
+                            <td>1702</td>
+                            <td class="bclcodenm">영양교사</td>
+                            <td><b class="bname">2021 영양교사 실전모의고사 (김)</b></td>
+                            <td class="bprof">김지연</td>
+                            <td class="bprice chkmoney">220,000</td>
+                            <td class="bcount">3</td>
+                            <td class="bpress">
+                                <i class="tableIcon statuIng">업데이트중</i>
+                            </td>
+                            <td class="bdate">2020-10-06</td>
+                            <td>보임</td>
+                            <td>
+                                <input type="hidden" name="clCode" value="CL00016" />
+                                <button type="button" class="commonBtn act_select">선택</button>
+                            </td>
+                        </tr>
+        
+                        <tr data-no="8073">
+                            <td>1701</td>
+                            <td class="bclcodenm">영양교사</td>
+                            <td><b class="bname">2021 영양교사 실전모의고사 (이)</b></td>
+                            <td class="bprof">이경연</td>
+                            <td class="bprice chkmoney">220,000</td>
+                            <td class="bcount">5</td>
+                            <td class="bpress">
+                                <i class="tableIcon statuIng">업데이트중</i>
+                            </td>
+                            <td class="bdate">2020-10-06</td>
+                            <td>보임</td>
+                            <td>
+                                <input type="hidden" name="clCode" value="CL00016" />
+                                <button type="button" class="commonBtn act_select">선택</button>
+                            </td>
+                        </tr>
+        
+                        <tr data-no="8072">
+                            <td>1700</td>
+                            <td class="bclcodenm">영양교사</td>
+                            <td><b class="bname">2021 영양교사 실전모의고사 (최)</b></td>
+                            <td class="bprof">최은미</td>
+                            <td class="bprice chkmoney">220,000</td>
+                            <td class="bcount">6</td>
+                            <td class="bpress">
+                                <i class="tableIcon statuIng">업데이트중</i>
+                            </td>
+                            <td class="bdate">2020-10-06</td>
+                            <td>보임</td>
+                            <td>
+                                <input type="hidden" name="clCode" value="CL00016" />
+                                <button type="button" class="commonBtn act_select">선택</button>
+                            </td>
+                        </tr>
+        
+                        <tr data-no="8071">
+                            <td>1699</td>
+                            <td class="bclcodenm">면접특강</td>
+                            <td><b class="bname">화질 테스트 전용</b></td>
+                            <td class="bprof">한승희</td>
+                            <td class="bprice chkmoney">8,800,000</td>
+                            <td class="bcount">6</td>
+                            <td class="bpress">
+                                강의준비중
+                            </td>
+                            <td class="bdate">2020-08-27</td>
+                            <td>보임</td>
+                            <td>
+                                <input type="hidden" name="clCode" value="CL00033" />
+                                <button type="button" class="commonBtn act_select">선택</button>
+                            </td>
+                        </tr>
+        
+                        <tr data-no="8070">
+                            <td>1698</td>
+                            <td class="bclcodenm">식품위생</td>
+                            <td><b class="bname">2021 식품위생 이론 및 심화완성</b></td>
+                            <td class="bprof">김지연</td>
+                            <td class="bprice chkmoney">150,000</td>
+                            <td class="bcount">27</td>
+                            <td class="bpress">
+                                <i class="tableIcon statuIng">업데이트중</i>
+                            </td>
+                            <td class="bdate">2020-08-25</td>
+                            <td>보임</td>
+                            <td>
+                                <input type="hidden" name="clCode" value="CL00013" />
+                                <button type="button" class="commonBtn act_select">선택</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+            <!--//listTable-->
+        
+            <!-- pagingType03 -->
+            <div class="pageNation clear">
+                <ul class="pagenation">
+                    <li class="prev text-ir"><a href="?pageIndex=1" onclick="fnActMovingList(1);return false; " class="pn_prev">처음</a></li>
+                    <li class="prev text-ir"><a href="?pageIndex=1" onclick="fnActMovingList(1);return false; " class="pn_prev">이전</a></li>
+                    <li class="pn_paging_set pn_paging on"><a href="javascript:void(0);" class="pn_page">1</a></li>
+                    <li class="pn_paging_set pn_paging"><a href="?pageIndex=2" onclick="fnActMovingList(2);return false; " class="pn_page">2</a></li>
+                    <li class="pn_paging_set pn_paging"><a href="?pageIndex=3" onclick="fnActMovingList(3);return false; " class="pn_page">3</a></li>
+                    <li class="pn_paging_set pn_paging"><a href="?pageIndex=4" onclick="fnActMovingList(4);return false; " class="pn_page">4</a></li>
+                    <li class="pn_paging_set pn_paging"><a href="?pageIndex=5" onclick="fnActMovingList(5);return false; " class="pn_page">5</a></li>
+                    <li class="pn_paging_set pn_paging"><a href="?pageIndex=6" onclick="fnActMovingList(6);return false; " class="pn_page">6</a></li>
+                    <li class="pn_paging_set pn_paging"><a href="?pageIndex=7" onclick="fnActMovingList(7);return false; " class="pn_page">7</a></li>
+                    <li class="pn_paging_set pn_paging"><a href="?pageIndex=8" onclick="fnActMovingList(8);return false; " class="pn_page">8</a></li>
+                    <li class="pn_paging_set pn_paging"><a href="?pageIndex=9" onclick="fnActMovingList(9);return false; " class="pn_page">9</a></li>
+                    <li class="pn_paging_set pn_paging"><a href="?pageIndex=10" onclick="fnActMovingList(10);return false; " class="pn_page">10</a></li>
+                    <li class="next text-ir"><a href="?pageIndex=11" onclick="fnActMovingList(11);return false; " class="pn_next">다음</a></li>
+                    <li class="next text-ir"><a href="?pageIndex=341" onclick="fnActMovingList(341);return false; " class="pn_next">마지막</a></li>
+                </ul>
+            </div>
+            <!-- //pagingType03 -->
+        
+            <div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div>
+        </body>        
+    </div>
+    <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+        <div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-corner-all ui-widget">닫기</button></div>
+    </div>
+</div>
+
 @elseif(request()->segment(2) == 'order' && request()->segment(3) == 'extension')
 <section class="rightCont">
     <div class="rightTitle">
@@ -2358,24 +2766,24 @@ function fnCodeIdAdd(codeGb){
                             </span>
                         </td>
                         <td class="list-no">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('2980');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('2980');">
                                 2975
                             </a>
                         </td>
                         <td>
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('2980');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('2980');">
                                 이경은
                             </a>
                         </td>
                         <td>
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('2980');">
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('2980');">
                                 ruddms9736
                             </a>
                         </td>
                         <td>2020-10-29</td>
                         <td>PC</td>
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnActOrderView('2980');"> 영양교사 - [2021] 서답형 문제풀이</a>
+                            <a href="javascript:void(0);" onclick="javascript:go_modify_url('2980');"> 영양교사 - [2021] 서답형 문제풀이</a>
                         </td>
                         <td>30</td>
                         <td class="ar chkmoney">100,000</td>
@@ -2552,9 +2960,9 @@ function fnCodeIdAdd(codeGb){
                         415
                     </td>
                       <td><div class="date">2020-10-29</div><div class="ord-mobile">mobile</div></td>
-                      <td class="al"><a href="javascript:void(0);" onclick="javascript:fnActOrderView('216215')">
+                      <td class="al"><a href="javascript:void(0);" onclick="javascript:go_modify_url('216215')">
                         2021 원픽 지역사회간호1권
-                    </a> <button type="button" class="commonBtn" onclick="javascript:fnActOrderView('216215')">변경</button></td>
+                    </a> <button type="button" class="commonBtn" onclick="javascript:go_modify_url('216215')">변경</button></td>
                       <td><div class="name">김한나</div><div>poilks1</div></td>
                     <td>김한나</td>
                       <td><div>010-3324-5755</div><div>010-3324-5755</div></td>
@@ -2577,9 +2985,9 @@ function fnCodeIdAdd(codeGb){
                         414
                     </td>
                       <td><div class="date">2020-10-29</div><div class="ord-pc">PC</div></td>
-                      <td class="al"><a href="javascript:void(0);" onclick="javascript:fnActOrderView('216214')">
+                      <td class="al"><a href="javascript:void(0);" onclick="javascript:go_modify_url('216214')">
                         2021 김지연 식품위생 이론서 [최신판]1권/식품화학개론 최신판 수험서 [강의용]1권/2021 김철민 국어 이론서1권/오! 영어 [공무원]1권/박동현 공무원영어 기본완성1권/2021 강 한국사 (이론서 및 서브)1권/교재포함:신경향 식품화학개론 기출 및 단원별 문제완성1권/교재포함:신경향 식품화학개론 실전 모의고사반1권/교재포함:2021 국어 기출분석 및 단원별 문제특강1권/교재포함:2021 국어 실전 모의고사1권/교재포함:2021 영어 기출분석 및 단원별 문제특강1권/교재포함:2021 영어 실전 모의고사1권/교재포함:2021 한국사 기출분석 및 단원별 문제특강1권/교재포함:2021 한국사 실전 모의고사1권/교재포함:2021 식품위생 기출분석 및 단원별 문제특강1권/교재포함:2021 식품위생 실전 모의고사1권
-                    </a> <button type="button" class="commonBtn" onclick="javascript:fnActOrderView('216214')">변경</button></td>
+                    </a> <button type="button" class="commonBtn" onclick="javascript:go_modify_url('216214')">변경</button></td>
                       <td><div class="name">김은경</div><div>N@39801658</div></td>
                     <td>김은경</td>
                       <td><div>010-3551-4620</div><div>010-3551-4620</div></td>
@@ -2602,9 +3010,9 @@ function fnCodeIdAdd(codeGb){
                         413
                     </td>
                       <td><div class="date">2020-10-29</div><div class="ord-mobile">mobile</div></td>
-                      <td class="al"><a href="javascript:void(0);" onclick="javascript:fnActOrderView('216213')">
+                      <td class="al"><a href="javascript:void(0);" onclick="javascript:go_modify_url('216213')">
                         하이스코어 확인학습 교재 [공무원 생물 심화반 강의용]1권/공무원 생물 기출 700제1권
-                    </a> <button type="button" class="commonBtn" onclick="javascript:fnActOrderView('216213')">변경</button></td>
+                    </a> <button type="button" class="commonBtn" onclick="javascript:go_modify_url('216213')">변경</button></td>
                       <td><div class="name">김미령</div><div>mwmrmd</div></td>
                     <td>김미령</td>
                       <td><div>010-8741-2220</div><div>010-8741-2220</div></td>
@@ -2781,7 +3189,7 @@ function fnCodeIdAdd(codeGb){
                     <td>dbyadmin</td>
                     <td>2020-10-21</td>
                     <td>
-                        <button type="button" class="commonBtn" onclick="javascript:fnActFreeLectView('579');">수정</button>
+                        <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                         <button type="button" class="commonBtn" onclick="javascript:fnActFreeLectDel('579');">삭제</button>
                     </td>
                 </tr>
@@ -2807,7 +3215,7 @@ function fnCodeIdAdd(codeGb){
                     <td>yulimgosiy</td>
                     <td>2020-10-22</td>
                     <td>
-                        <button type="button" class="commonBtn" onclick="javascript:fnActFreeLectView('580');">수정</button>
+                        <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                         <button type="button" class="commonBtn" onclick="javascript:fnActFreeLectDel('580');">삭제</button>
                     </td>
                 </tr>
@@ -2833,7 +3241,7 @@ function fnCodeIdAdd(codeGb){
                     <td>yulimgosiy</td>
                     <td>2020-10-22</td>
                     <td>
-                        <button type="button" class="commonBtn" onclick="javascript:fnActFreeLectView('580');">수정</button>
+                        <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                         <button type="button" class="commonBtn" onclick="javascript:fnActFreeLectDel('580');">삭제</button>
                     </td>
                 </tr>
@@ -3348,13 +3756,13 @@ function fnCodeIdAdd(codeGb){
                         <td>107474</td>
                         <td>일반회원</td>
                         <td>최혜빈</td>
-                        <td><a href="javascript:void(0);" onclick="javascript:fnActMembView(109540);">N@70972318</a></td>
+                        <td><a href="javascript:void(0);" onclick="javascript:go_modify_url(109540);">N@70972318</a></td>
                         <td>chlgpqls6259@naver.com</td>
                         <td>010-6259-1759</td>
                         <td>PC</td>
                         <td>2020-10-29</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActMembView(109540);">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url(109540);">수정</button>
                         </td>
                     </tr>
 
@@ -3369,13 +3777,13 @@ function fnCodeIdAdd(codeGb){
                         <td>107473</td>
                         <td>일반회원</td>
                         <td>김한나</td>
-                        <td><a href="javascript:void(0);" onclick="javascript:fnActMembView(109539);">poilks1</a></td>
+                        <td><a href="javascript:void(0);" onclick="javascript:go_modify_url(109539);">poilks1</a></td>
                         <td>poilks123@naver.com</td>
                         <td>010-3324-5755</td>
                         <td>PC</td>
                         <td>2020-10-29</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActMembView(109539);">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url(109539);">수정</button>
                         </td>
                     </tr>
                 </tbody>
@@ -3529,14 +3937,14 @@ function fnCodeIdAdd(codeGb){
             <tbody>
                 <tr>
                     <td class="list-no">8126</td>
-                    <td><a href="javascript:fnActMembLectView('313255','271859')">김한나</a></td>
-                    <td><a href="javascript:fnActMembLectView('313255','271859')">poilks1</a></td>
+                    <td><a href="javascript:go_modify_url('313255','271859')">김한나</a></td>
+                    <td><a href="javascript:go_modify_url('313255','271859')">poilks1</a></td>
                     <td>
                         <div>010-3324-5755</div>
                         <div>010-3324-5755</div>
                     </td>
                     <td><div class="ord-pc">PC</div></td>
-                    <td class="al"><a href="javascript:fnActMembLectView('313255','271859')">2021 지역사회간호 (정규이론반)</a></td>
+                    <td class="al"><a href="javascript:go_modify_url('313255','271859')">2021 지역사회간호 (정규이론반)</a></td>
                     <td>
                         2020-10-29<br />
                         2021-01-06
@@ -3546,14 +3954,14 @@ function fnCodeIdAdd(codeGb){
 
                 <tr>
                     <td class="list-no">8125</td>
-                    <td><a href="javascript:fnActMembLectView('313253','271858')">김은경</a></td>
-                    <td><a href="javascript:fnActMembLectView('313253','271858')">N@39801658</a></td>
+                    <td><a href="javascript:go_modify_url('313253','271858')">김은경</a></td>
+                    <td><a href="javascript:go_modify_url('313253','271858')">N@39801658</a></td>
                     <td>
                         <div>010-3551-4620</div>
                         <div>010-3551-4620</div>
                     </td>
                     <td><div class="ord-pc">PC</div></td>
-                    <td class="al"><a href="javascript:fnActMembLectView('313253','271858')">식품위생직 공무원 - 공개경쟁(5) FP반</a></td>
+                    <td class="al"><a href="javascript:go_modify_url('313253','271858')">식품위생직 공무원 - 공개경쟁(5) FP반</a></td>
                     <td>
                         2020-11-02<br />
                         2021-11-01
@@ -3724,7 +4132,7 @@ function fnCodeIdAdd(codeGb){
                             <input type="text" name="pSeq" id="pSeq" value="200" class="chknum" style="width: 40px;" maxlength="3" />
                         </td>
                         <td>최정환</td>
-                        <td><a href="javascript:void(0);" onclick="javascript:fnActMembView(24502);">petal2002</a></td>
+                        <td><a href="javascript:void(0);" onclick="javascript:go_modify_url(24502);">petal2002</a></td>
                         <td>남</td>
                         <td>petal2002@hanmail.net</td>
                         <td>010-9455-2484</td>
@@ -3732,7 +4140,7 @@ function fnCodeIdAdd(codeGb){
                         <td>보임</td>
                         <td>94</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActMembView(24502);">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url(24502);">수정</button>
                         </td>
                     </tr>
 
@@ -3749,7 +4157,7 @@ function fnCodeIdAdd(codeGb){
                             <input type="text" name="pSeq" id="pSeq" value="199" class="chknum" style="width: 40px;" maxlength="3" />
                         </td>
                         <td>오정화</td>
-                        <td><a href="javascript:void(0);" onclick="javascript:fnActMembView(45660);">ohcatarsis</a></td>
+                        <td><a href="javascript:void(0);" onclick="javascript:go_modify_url(45660);">ohcatarsis</a></td>
                         <td>여</td>
                         <td>ohcatarsis@hanmail.net</td>
                         <td>011-295-0895</td>
@@ -3757,7 +4165,7 @@ function fnCodeIdAdd(codeGb){
                         <td>보임</td>
                         <td>98</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActMembView(45660);">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url(45660);">수정</button>
                         </td>
                     </tr>
 
@@ -3774,7 +4182,7 @@ function fnCodeIdAdd(codeGb){
                             <input type="text" name="pSeq" id="pSeq" value="198" class="chknum" style="width: 40px;" maxlength="3" />
                         </td>
                         <td>김희영</td>
-                        <td><a href="javascript:void(0);" onclick="javascript:fnActMembView(13342);">yan33</a></td>
+                        <td><a href="javascript:void(0);" onclick="javascript:go_modify_url(13342);">yan33</a></td>
                         <td>여</td>
                         <td>yan333@paran.net</td>
                         <td>011-9703-0136</td>
@@ -3782,7 +4190,7 @@ function fnCodeIdAdd(codeGb){
                         <td>보임</td>
                         <td>223</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActMembView(13342);">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url(13342);">수정</button>
                         </td>
                     </tr>
                     <tr style="background-color:#F4F4F4;">	
@@ -3801,7 +4209,7 @@ function fnCodeIdAdd(codeGb){
                             
                         </td>
                         <td>신현준</td>
-                        <td><a href="javascript:void(0);" onclick="javascript:fnActMembView(34581);">shj3015</a></td>
+                        <td><a href="javascript:void(0);" onclick="javascript:go_modify_url(34581);">shj3015</a></td>
                         <td>남</td>
                         <td>shj3015@dreamwiz.com</td>
                         <td>010-2384-7206</td>
@@ -3809,7 +4217,7 @@ function fnCodeIdAdd(codeGb){
                         <td>숨김</td>
                         <td>7</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActMembView(34581);">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url(34581);">수정</button>
                         </td>
                     </tr>
                 </tbody>
@@ -5455,7 +5863,7 @@ function fnCodeIdAdd(codeGb){
                         <td>완료</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116579', 'BBS_0009');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116579', 'BBS_0009');">
                                 동영상 강의 화질
                             </a>
                         </td>
@@ -5465,7 +5873,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-28</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116579');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116579');">삭제</button>
                         </td>
                     </tr>
@@ -5487,7 +5895,7 @@ function fnCodeIdAdd(codeGb){
                         <td class="al">
                             <i class="reply" style="margin-left: 6px;"></i>
 
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116583', 'BBS_0009');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116583', 'BBS_0009');">
                                 [RE]동영상 강의 화질
                             </a>
                         </td>
@@ -5497,7 +5905,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-28</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116583');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116583');">삭제</button>
                         </td>
                     </tr>
@@ -5645,7 +6053,7 @@ function fnCodeIdAdd(codeGb){
                                 하이스코어 확인학습 교재 [공무원 생물 심화반 강의용] 하이스코어 확인학습 교재 [공무원 생물 심화반 강의용]
                             </div>
 
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116562', 'BBS_0010');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116562', 'BBS_0010');">
                                 교재변경 질문이요
                             </a>
                         </td>
@@ -5655,7 +6063,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-27</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116562');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116562');">삭제</button>
                         </td>
                     </tr>
@@ -5677,7 +6085,7 @@ function fnCodeIdAdd(codeGb){
                         <td class="al">
                             <i class="reply" style="margin-left: 6px;"></i>
 
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116584', 'BBS_0010');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116584', 'BBS_0010');">
                                 [RE]교재변경 질문이요
                             </a>
                         </td>
@@ -5687,7 +6095,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-28</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116584');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116584');">삭제</button>
                         </td>
                     </tr>
@@ -5866,7 +6274,7 @@ function fnCodeIdAdd(codeGb){
                         <td>대기</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116690', 'BBS_0011');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116690', 'BBS_0011');">
                                 탈퇴신청
                             </a>
                         </td>
@@ -5876,7 +6284,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-29</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116690');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116690');">삭제</button>
                         </td>
                     </tr>
@@ -5898,7 +6306,7 @@ function fnCodeIdAdd(codeGb){
                         <td>완료</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116677', 'BBS_0011');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116677', 'BBS_0011');">
                                 면접특강관련 질문드립니다
                             </a>
                         </td>
@@ -5908,7 +6316,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-29</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116677');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116677');">삭제</button>
                         </td>
                     </tr>
@@ -5932,7 +6340,7 @@ function fnCodeIdAdd(codeGb){
                         <td class="al">
                             <i class="reply" style="margin-left: 6px;"></i>
 
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116687', 'BBS_0011');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116687', 'BBS_0011');">
                                 [RE]면접특강관련 질문드립니다
                             </a>
                         </td>
@@ -5942,7 +6350,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-29</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116687');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116687');">삭제</button>
                         </td>
                     </tr>
@@ -6084,7 +6492,7 @@ function fnCodeIdAdd(codeGb){
                         <td>대기</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('94061', 'BBS_0012');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('94061', 'BBS_0012');">
                                 <b><font color="red"> [공지] 기기초기화 문의 </font></b>
                             </a>
                             <b><font color="red"> </font></b>
@@ -6095,7 +6503,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-02-20</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('94061');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('94061');">삭제</button>
                         </td>
                     </tr>
@@ -6115,7 +6523,7 @@ function fnCodeIdAdd(codeGb){
                         <td>대기</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('50450', 'BBS_0012');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('50450', 'BBS_0012');">
                                 <b><font color="green"> ☆ 대방열림고시학원 인기 추천 카페 안내 ☆ </font></b>
                             </a>
                             <b><font color="green"> </font></b>
@@ -6126,7 +6534,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-01-02</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('50450');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('50450');">삭제</button>
                         </td>
                     </tr>
@@ -6146,7 +6554,7 @@ function fnCodeIdAdd(codeGb){
                         <td>완료</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116647', 'BBS_0012');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116647', 'BBS_0012');">
                                 예전에 들었던 기기
 
                                 <font color="black"><i class="newText">NEW</i></font>
@@ -6158,7 +6566,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-28</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116647');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116647');">삭제</button>
                         </td>
                     </tr>
@@ -6180,7 +6588,7 @@ function fnCodeIdAdd(codeGb){
                         <td class="al">
                             <i class="reply" style="margin-left: 6px;"></i>
 
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116660', 'BBS_0012');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116660', 'BBS_0012');">
                                 [RE]예전에 들었던 기기
 
                                 <font color="black"><i class="newText">NEW</i></font>
@@ -6192,7 +6600,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-29</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116660');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116660');">삭제</button>
                         </td>
                     </tr>
@@ -6349,7 +6757,7 @@ function fnCodeIdAdd(codeGb){
                         <td>대기</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116689', 'BBS_0013');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116689', 'BBS_0013');">
                                 교수님 질문 있습니다
                             </a>
                         </td>
@@ -6361,7 +6769,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-29</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116689');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116689');">삭제</button>
                         </td>
                     </tr>
@@ -6383,7 +6791,7 @@ function fnCodeIdAdd(codeGb){
                         <td>대기</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116687', 'BBS_0013');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116687', 'BBS_0013');">
                                 유화제 질문입니다
                             </a>
                         </td>
@@ -6395,7 +6803,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-29</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116687');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116687');">삭제</button>
                         </td>
                     </tr>
@@ -6417,7 +6825,7 @@ function fnCodeIdAdd(codeGb){
                         <td>대기</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116671', 'BBS_0013');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116671', 'BBS_0013');">
                                 질문드립니다.
                             </a>
                         </td>
@@ -6429,7 +6837,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-29</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116671');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116671');">삭제</button>
                         </td>
                     </tr>
@@ -6616,7 +7024,7 @@ function fnCodeIdAdd(codeGb){
                         <td>인터넷서점</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('103622', 'BBS_0014');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('103622', 'BBS_0014');">
                                 교재 배송에 소요되는 시간입니다.
                             </a>
                         </td>
@@ -6633,7 +7041,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-06-01</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('103622');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('103622');">삭제</button>
                         </td>
                     </tr>
@@ -6655,7 +7063,7 @@ function fnCodeIdAdd(codeGb){
                         <td>회원정보</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('103610', 'BBS_0014');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('103610', 'BBS_0014');">
                                 비밀번호 찾기가 안되시는 경우
                             </a>
                         </td>
@@ -6672,7 +7080,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-06-01</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('103610');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('103610');">삭제</button>
                         </td>
                     </tr>
@@ -6694,7 +7102,7 @@ function fnCodeIdAdd(codeGb){
                         <td>동영상강의</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('103608', 'BBS_0014');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('103608', 'BBS_0014');">
                                 나의강의실 내 학습자료실 자료가 다운로드 안되는 경우
                             </a>
                         </td>
@@ -6711,7 +7119,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-06-01</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('103608');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('103608');">삭제</button>
                         </td>
                     </tr>
@@ -6838,7 +7246,7 @@ function fnCodeIdAdd(codeGb){
                         <td>116595</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116595', 'BBS_0002');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116595', 'BBS_0002');">
                                 <b>
                                     <font color="black">
                                         의료기술직공무원 합격! 본 내용 구석구석을 꼼꼼히 ...
@@ -6857,7 +7265,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-28</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116595');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116595');">삭제</button>
                         </td>
                     </tr>
@@ -6875,7 +7283,7 @@ function fnCodeIdAdd(codeGb){
                         <td>116202</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116202', 'BBS_0002');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116202', 'BBS_0002');">
                                 <b>
                                     <font color="black">
                                         서울시간호직공무원 합격! 2021 EBS간호직공무원...
@@ -6894,7 +7302,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-23</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116202');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116202');">삭제</button>
                         </td>
                     </tr>
@@ -6912,7 +7320,7 @@ function fnCodeIdAdd(codeGb){
                         <td>34217</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('34217', 'BBS_0002');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('34217', 'BBS_0002');">
                                 <b><font color="black"> 2020 대방열림고시학원 국가면허 특강안내! [영양... </font></b>
                             </a>
                             <b><font color="black"> </font></b>
@@ -6925,7 +7333,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-03-02</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('34217');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('34217');">삭제</button>
                         </td>
                     </tr>
@@ -6943,7 +7351,7 @@ function fnCodeIdAdd(codeGb){
                         <td>34199</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('34199', 'BBS_0002');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('34199', 'BBS_0002');">
                                 <b>
                                     <font color="black"> 대방열림고시학원 2020.11월 강의 안내^^<i class="newText">NEW</i></font>
                                 </b>
@@ -6958,7 +7366,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-20</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('34199');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('34199');">삭제</button>
                         </td>
                     </tr>
@@ -6976,7 +7384,7 @@ function fnCodeIdAdd(codeGb){
                         <td>34125</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('34125', 'BBS_0002');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('34125', 'BBS_0002');">
                                 <b>
                                     <font color="black">
                                         ★ 2021 공무원 시험합격을 위한 동영상 강의 풀...
@@ -6995,7 +7403,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-16</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('34125');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('34125');">삭제</button>
                         </td>
                     </tr>
@@ -7013,7 +7421,7 @@ function fnCodeIdAdd(codeGb){
                         <td>34106</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('34106', 'BBS_0002');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('34106', 'BBS_0002');">
                                 <b>
                                     <font color="black">
                                         2021 기술직공무원 이론반 안내 [간호직,보건진료...
@@ -7032,7 +7440,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-16</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('34106');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('34106');">삭제</button>
                         </td>
                     </tr>
@@ -7050,7 +7458,7 @@ function fnCodeIdAdd(codeGb){
                         <td>103621</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('103621', 'BBS_0002');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('103621', 'BBS_0002');">
                                 2020년 6월 대방열림고시학원 공무원 모의고사&lt;무료&gt; 안내!
                             </a>
                         </td>
@@ -7062,7 +7470,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-06-01</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('103621');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('103621');">삭제</button>
                         </td>
                     </tr>
@@ -7223,7 +7631,7 @@ function fnCodeIdAdd(codeGb){
                         <td></td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('101183', 'BBS_0001');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('101183', 'BBS_0001');">
                                 공휴일은 대방열림고시학원 전체 휴무입니다.^^ [학원 운영시간 안내]
                             </a>
                         </td>
@@ -7235,7 +7643,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-05-05</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('101183');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('101183');">삭제</button>
                         </td>
                     </tr>
@@ -7255,7 +7663,7 @@ function fnCodeIdAdd(codeGb){
                         <td></td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('34229', 'BBS_0001');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('34229', 'BBS_0001');">
                                 대방열림고시학원 학원 운영방침
                             </a>
                         </td>
@@ -7267,7 +7675,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-02-06</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('34229');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('34229');">삭제</button>
                         </td>
                     </tr>
@@ -7287,7 +7695,7 @@ function fnCodeIdAdd(codeGb){
                         <td></td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('34228', 'BBS_0001');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('34228', 'BBS_0001');">
                                 대방열림고시학원 강사채용 안내
                             </a>
                         </td>
@@ -7299,7 +7707,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-01-01</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('34228');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('34228');">삭제</button>
                         </td>
                     </tr>
@@ -7319,7 +7727,7 @@ function fnCodeIdAdd(codeGb){
                         <td>전체공지</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('115293', 'BBS_0001');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('115293', 'BBS_0001');">
                                 <b><font color="#FF007F"> 모바일 강의 수강하고 계신 분들 중 '권한이 없... </font></b>
                             </a>
                             <b><font color="#FF007F"> </font></b>
@@ -7332,7 +7740,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-13</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('115293');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('115293');">삭제</button>
                         </td>
                     </tr>
@@ -7352,7 +7760,7 @@ function fnCodeIdAdd(codeGb){
                         <td>긴급공지</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('111447', 'BBS_0001');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('111447', 'BBS_0001');">
                                 [긴급공지] 코로나 사태로 인하여 2020.8.31 ~ 2020.9.5 현장강의는 비대면 ...
                             </a>
                         </td>
@@ -7364,7 +7772,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-08-28</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('111447');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('111447');">삭제</button>
                         </td>
                     </tr>
@@ -7509,7 +7917,7 @@ function fnCodeIdAdd(codeGb){
                         <td>34888</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('34888', 'BBS_0016');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('34888', 'BBS_0016');">
                                 <b>
                                     <font color="purple">
                                         대방열림고시학원의 합격수기가 다른점! [필독] &lt;...
@@ -7530,7 +7938,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-16</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('34888');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('34888');">삭제</button>
                         </td>
                     </tr>
@@ -7548,7 +7956,7 @@ function fnCodeIdAdd(codeGb){
                         <td>34727</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('34727', 'BBS_0016');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('34727', 'BBS_0016');">
                                 <b>
                                     <font color="blue">
                                         ★★★ 가짜 합격수기에 속지 않는 방법! ★★★
@@ -7573,7 +7981,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-16</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('34727');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('34727');">삭제</button>
                         </td>
                     </tr>
@@ -7591,7 +7999,7 @@ function fnCodeIdAdd(codeGb){
                         <td>34308</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('34308', 'BBS_0016');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('34308', 'BBS_0016');">
                                 <b>
                                     <font color="red">
                                         영양사 및 위생사, 간호사국가고시 합격수기는...^^ ...
@@ -7612,7 +8020,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-16</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('34308');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('34308');">삭제</button>
                         </td>
                     </tr>
@@ -7630,7 +8038,7 @@ function fnCodeIdAdd(codeGb){
                         <td>116691</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116691', 'BBS_0016');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116691', 'BBS_0016');">
                                 이미지 업로드 테스트입니다~
 
                                 <font color="black"><i class="newText">NEW</i></font>
@@ -7646,7 +8054,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-29</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116691');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116691');">삭제</button>
                         </td>
                     </tr>
@@ -7806,7 +8214,7 @@ function fnCodeIdAdd(codeGb){
                         <td>강원</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('35202', 'BBS_0017');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('35202', 'BBS_0017');">
                                 <b><font color="black">★ 본원출신 합격자 게시판은 ★ </font></b>
                             </a>
                             <b><font color="black"> </font></b>
@@ -7821,7 +8229,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2011-12-21</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('35202');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('35202');">삭제</button>
                         </td>
                     </tr>
@@ -7841,7 +8249,7 @@ function fnCodeIdAdd(codeGb){
                         <td></td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('73121', 'BBS_0017');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('73121', 'BBS_0017');">
                                 ★★★ 2018 전국 지방직 공무원 시험 본원출신 합격자 현황 ★★★
                             </a>
                         </td>
@@ -7855,7 +8263,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2019-05-10</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('73121');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('73121');">삭제</button>
                         </td>
                     </tr>
@@ -7875,7 +8283,7 @@ function fnCodeIdAdd(codeGb){
                         <td>admin</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('35311', 'BBS_0017');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('35311', 'BBS_0017');">
                                 ★★★ 2017 전국 지방직 공무원 시험 본원출신 합격자 현황 ★★★
                             </a>
                         </td>
@@ -7889,7 +8297,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2018-02-01</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('35311');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('35311');">삭제</button>
                         </td>
                     </tr>
@@ -7909,7 +8317,7 @@ function fnCodeIdAdd(codeGb){
                         <td>admin</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('35310', 'BBS_0017');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('35310', 'BBS_0017');">
                                 ★★★ 2016 전국 지방직 공무원 시험 본원출신 합격자 현황 ★★★
                             </a>
                         </td>
@@ -7923,7 +8331,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2017-03-07</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('35310');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('35310');">삭제</button>
                         </td>
                     </tr>
@@ -7943,7 +8351,7 @@ function fnCodeIdAdd(codeGb){
                         <td>admin</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('35309', 'BBS_0017');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('35309', 'BBS_0017');">
                                 ★★★ 2015 전국 지방직 공무원 시험 본원출신 합격자 현황 ★★★
                             </a>
                         </td>
@@ -7957,7 +8365,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2015-11-26</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('35309');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('35309');">삭제</button>
                         </td>
                     </tr>
@@ -7977,7 +8385,7 @@ function fnCodeIdAdd(codeGb){
                         <td>admin</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('35308', 'BBS_0017');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('35308', 'BBS_0017');">
                                 ★★★ 2014 전국 지방직 공무원 시험 본원출신 합격자 현황 ★★★
                             </a>
                         </td>
@@ -7991,7 +8399,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2014-12-26</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('35308');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('35308');">삭제</button>
                         </td>
                     </tr>
@@ -8131,7 +8539,7 @@ function fnCodeIdAdd(codeGb){
                         <td>38834</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('38834', 'BBS_0004');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('38834', 'BBS_0004');">
                                 <b><font color="#FFL493"> 2020 전국 공무원 시험공고 한눈에 보기! [... </font></b>
                             </a>
                             <b><font color="#FFL493"> </font></b>
@@ -8144,7 +8552,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2015-01-21</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('38834');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('38834');">삭제</button>
                         </td>
                     </tr>
@@ -8162,7 +8570,7 @@ function fnCodeIdAdd(codeGb){
                         <td>116599</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116599', 'BBS_0004');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116599', 'BBS_0004');">
                                 2020년도 제4회 강원도 보건연구사 공무원 임용시험 시행계획 공고
 
                                 <font color="black"><i class="newText">NEW</i></font>
@@ -8199,7 +8607,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-28</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116599');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116599');">삭제</button>
                         </td>
                     </tr>
@@ -8217,7 +8625,7 @@ function fnCodeIdAdd(codeGb){
                         <td>116522</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116522', 'BBS_0004');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116522', 'BBS_0004');">
                                 2020년 제3회 강원도 동해시 의료기술직(방사선)공무원 경력경쟁 임용시험 필기시험 일시·...
                             </a>
                         </td>
@@ -8244,7 +8652,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-27</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116522');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116522');">삭제</button>
                         </td>
                     </tr>
@@ -8384,7 +8792,7 @@ function fnCodeIdAdd(codeGb){
                         <td>40135</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('40135', 'BBS_0005');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('40135', 'BBS_0005');">
                                 '경쟁률 및 합격선' 게시판은...^^
                             </a>
                         </td>
@@ -8396,7 +8804,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2018-04-30</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('40135');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('40135');">삭제</button>
                         </td>
                     </tr>
@@ -8414,7 +8822,7 @@ function fnCodeIdAdd(codeGb){
                         <td>116426</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116426', 'BBS_0005');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116426', 'BBS_0005');">
                                 2020년도 제1회 전라남도 장흥군 간호직공무원 경력경쟁임용시험 필기시험 합격선
                             </a>
                         </td>
@@ -8441,7 +8849,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-26</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116426');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116426');">삭제</button>
                         </td>
                     </tr>
@@ -8581,7 +8989,7 @@ function fnCodeIdAdd(codeGb){
                         <td>40135</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('40135', 'BBS_0005');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('40135', 'BBS_0005');">
                                 '경쟁률 및 합격선' 게시판은...^^
                             </a>
                         </td>
@@ -8593,7 +9001,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2018-04-30</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('40135');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('40135');">삭제</button>
                         </td>
                     </tr>
@@ -8611,7 +9019,7 @@ function fnCodeIdAdd(codeGb){
                         <td>116426</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('116426', 'BBS_0005');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('116426', 'BBS_0005');">
                                 2020년도 제1회 전라남도 장흥군 간호직공무원 경력경쟁임용시험 필기시험 합격선
                             </a>
                         </td>
@@ -8638,7 +9046,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-26</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('116426');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('116426');">삭제</button>
                         </td>
                     </tr>
@@ -8791,7 +9199,7 @@ function fnCodeIdAdd(codeGb){
                         <td>2021 영양교사 실전모의고사 (최)</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('115492', 'BBS_0007');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('115492', 'BBS_0007');">
                                 [필독] 실전 모의고사 시험지 업로드 시간 안내
                             </a>
                         </td>
@@ -8803,7 +9211,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-10-15</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('115492');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('115492');">삭제</button>
                         </td>
                     </tr>
@@ -8823,7 +9231,7 @@ function fnCodeIdAdd(codeGb){
                         <td>(42회 위생사 합격) 공중보건학, 위생관계법규</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('111168', 'BBS_0007');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('111168', 'BBS_0007');">
                                 [42회 위생사] 위생관계법규
                             </a>
                         </td>
@@ -8835,7 +9243,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-08-26</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('111168');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('111168');">삭제</button>
                         </td>
                     </tr>
@@ -8991,7 +9399,7 @@ function fnCodeIdAdd(codeGb){
                         <td>100086</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('100086', 'BBS_0008');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('100086', 'BBS_0008');">
                                 2020 공무원 화학 단계별 문제풀이 정오표
                             </a>
                         </td>
@@ -9005,7 +9413,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-04-22</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('100086');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('100086');">삭제</button>
                         </td>
                     </tr>
@@ -9023,7 +9431,7 @@ function fnCodeIdAdd(codeGb){
                         <td>98711</td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('98711', 'BBS_0008');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('98711', 'BBS_0008');">
                                 2020 하이스코어 생물 교재 정오표
                             </a>
                         </td>
@@ -9052,7 +9460,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-04-08</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('98711');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('98711');">삭제</button>
                         </td>
                     </tr>
@@ -9318,7 +9726,7 @@ function fnCodeIdAdd(codeGb){
                         </td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('114469', 'BBS_0018');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('114469', 'BBS_0018');">
                                 식품미생물 모의고사 문제입니다.^^
                             </a>
                         </td>
@@ -9355,7 +9763,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-09-29</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('114469');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('114469');">삭제</button>
                         </td>
                     </tr>
@@ -9378,7 +9786,7 @@ function fnCodeIdAdd(codeGb){
                         </td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('103498', 'BBS_0018');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('103498', 'BBS_0018');">
                                 2020년 6월 간호직 모의고사
                             </a>
                         </td>
@@ -9407,7 +9815,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-06-01</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('103498');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('103498');">삭제</button>
                         </td>
                     </tr>
@@ -9430,7 +9838,7 @@ function fnCodeIdAdd(codeGb){
                         </td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('103497', 'BBS_0018');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('103497', 'BBS_0018');">
                                 2020년 6월 보건직 모의고사
                             </a>
                         </td>
@@ -9459,7 +9867,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-06-01</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('103497');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('103497');">삭제</button>
                         </td>
                     </tr>
@@ -9482,7 +9890,7 @@ function fnCodeIdAdd(codeGb){
                         </td>
 
                         <td class="al">
-                            <a href="javascript:void(0);" onclick="javascript:fnViewArticle('103496', 'BBS_0018');">
+                            <a href="javascript:void(0);" onclick="javascript:go_view_url('103496', 'BBS_0018');">
                                 2020년 6월 의료기술직 모의고사
                             </a>
                         </td>
@@ -9511,7 +9919,7 @@ function fnCodeIdAdd(codeGb){
 
                         <td>2020-06-01</td>
                         <td>
-                            <button type="button" class="commonBtn" onclick="javascript:fnActEdit('103496');">수정</button>
+                            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                             <button type="button" class="commonBtn" onclick="javascript:fnActDel('103496');">삭제</button>
                         </td>
                     </tr>
@@ -10328,7 +10736,7 @@ function fnCodeIdAdd(codeGb){
         <h3>메인 관리</h3>
         <div class="btnWrap">
             <button type="button" class="colorBtn rightbluebtn" onclick="javascript:fnActBannerList('1');">검색</button>
-            <button type="button" class="colorBtn rightbluebtn plusIcon" onclick="javascript:fnActBannerWrite();">신규등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon" onclick="javascript:go_write_url();">신규등록</button>
             <button type="button" class="colorBtn rightbluebtn" onclick="javascript:fnTranSeqAuto();">순서자동입력</button>
             <button type="button" class="colorBtn rightbluebtn" onclick="javascript:fnTranSeqSave();">순서변경적용</button>
         </div>
@@ -11933,7 +12341,7 @@ function fnCodeIdAdd(codeGb){
     <div class="rightTitle">
         <h3>게시판 마스터</h3>
         <div class="btnWrap">
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fn_egov_insert_addBrdMstr(); return false;">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url(); return false;">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -12365,7 +12773,7 @@ function fnCodeIdAdd(codeGb){
     <div class="rightTitle">
         <h3>관리자 관리</h3>
         <div class="btnWrap">
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnActEmpWrite();">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url();">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -12439,7 +12847,7 @@ function fnCodeIdAdd(codeGb){
                     <td>총괄관리자</td>
                     <td>dbyadmin</td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActEmpView('dbyadmin');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('dbyadmin');">
                             이과장
                         </a>
                     </td>
@@ -12449,7 +12857,7 @@ function fnCodeIdAdd(codeGb){
                     <td>2018-11-30</td>
                     <td>Y</td>
                     <td>
-                        <button type="button" class="commonBtn" onclick="javascript:fnActEmpView('dbyadmin');">수정</button>
+                        <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                         <button type="button" class="commonBtn" onclick="javascript:fnActEmpDel('dbyadmin');">삭제</button>
                     </td>
                 </tr>
@@ -12459,7 +12867,7 @@ function fnCodeIdAdd(codeGb){
                     <td>총괄관리자</td>
                     <td>daebangmajor</td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActEmpView('daebangmajor');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('daebangmajor');">
                             이현주
                         </a>
                     </td>
@@ -12469,7 +12877,7 @@ function fnCodeIdAdd(codeGb){
                     <td>2020-05-11</td>
                     <td>Y</td>
                     <td>
-                        <button type="button" class="commonBtn" onclick="javascript:fnActEmpView('daebangmajor');">수정</button>
+                        <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                         <button type="button" class="commonBtn" onclick="javascript:fnActEmpDel('daebangmajor');">삭제</button>
                     </td>
                 </tr>
@@ -12479,7 +12887,7 @@ function fnCodeIdAdd(codeGb){
                     <td>총괄관리자</td>
                     <td>yulimadmin</td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActEmpView('yulimadmin');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('yulimadmin');">
                             이현주1
                         </a>
                     </td>
@@ -12489,7 +12897,7 @@ function fnCodeIdAdd(codeGb){
                     <td>2020-11-02</td>
                     <td>Y</td>
                     <td>
-                        <button type="button" class="commonBtn" onclick="javascript:fnActEmpView('yulimadmin');">수정</button>
+                        <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                         <button type="button" class="commonBtn" onclick="javascript:fnActEmpDel('yulimadmin');">삭제</button>
                     </td>
                 </tr>
@@ -12499,7 +12907,7 @@ function fnCodeIdAdd(codeGb){
                     <td>게시판 관리자</td>
                     <td>dragonhani12</td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActEmpView('dragonhani12');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('dragonhani12');">
                             송대리
                         </a>
                     </td>
@@ -12509,7 +12917,7 @@ function fnCodeIdAdd(codeGb){
                     <td>2020-05-25</td>
                     <td>Y</td>
                     <td>
-                        <button type="button" class="commonBtn" onclick="javascript:fnActEmpView('dragonhani12');">수정</button>
+                        <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                         <button type="button" class="commonBtn" onclick="javascript:fnActEmpDel('dragonhani12');">삭제</button>
                     </td>
                 </tr>
@@ -12519,7 +12927,7 @@ function fnCodeIdAdd(codeGb){
                     <td>게시판 관리자</td>
                     <td>yulimgosiy</td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActEmpView('yulimgosiy');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('yulimgosiy');">
                             윳대리
                         </a>
                     </td>
@@ -12529,7 +12937,7 @@ function fnCodeIdAdd(codeGb){
                     <td>2019-11-14</td>
                     <td>Y</td>
                     <td>
-                        <button type="button" class="commonBtn" onclick="javascript:fnActEmpView('yulimgosiy');">수정</button>
+                        <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                         <button type="button" class="commonBtn" onclick="javascript:fnActEmpDel('yulimgosiy');">삭제</button>
                     </td>
                 </tr>
@@ -12539,7 +12947,7 @@ function fnCodeIdAdd(codeGb){
                     <td>김태촌</td>
                     <td>dragonhani</td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActEmpView('dragonhani');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('dragonhani');">
                             쏭쏭쏭
                         </a>
                     </td>
@@ -12549,7 +12957,7 @@ function fnCodeIdAdd(codeGb){
                     <td>2019-05-07</td>
                     <td>Y</td>
                     <td>
-                        <button type="button" class="commonBtn" onclick="javascript:fnActEmpView('dragonhani');">수정</button>
+                        <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
                         <button type="button" class="commonBtn" onclick="javascript:fnActEmpDel('dragonhani');">삭제</button>
                     </td>
                 </tr>
@@ -12563,7 +12971,7 @@ function fnCodeIdAdd(codeGb){
     <div class="rightTitle">
         <h3>장바구니 공지 등록</h3>
         <div class="btnWrap">
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnActOrderNoticeModify('edit');">수정</button>
+            <button type="button" class="commonBtn" onclick="javascript:go_modify_url();">수정</button>
         </div>
     </div>
     <div class="realCont">
@@ -12629,7 +13037,7 @@ function fnCodeIdAdd(codeGb){
     <div class="rightTitle">
         <h3>권한그룹 관리</h3>
         <div class="btnWrap">
-            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:fnActGroupView();">등록</button>
+            <button type="button" class="colorBtn rightbluebtn plusIcon act_ins" onclick="javascript:go_write_url();">등록</button>
         </div>
     </div>
     <div class="realCont">
@@ -12694,12 +13102,12 @@ function fnCodeIdAdd(codeGb){
                 <tr>
                     <td>8</td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActGroupView('G000001');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('G000001');">
                             G000001
                         </a>
                     </td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActGroupView('G000001');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('G000001');">
                             총괄관리자
                         </a>
                     </td>
@@ -12712,12 +13120,12 @@ function fnCodeIdAdd(codeGb){
                 <tr>
                     <td>7</td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActGroupView('G000040');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('G000040');">
                             G000040
                         </a>
                     </td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActGroupView('G000040');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('G000040');">
                             이과장 서브
                         </a>
                     </td>
@@ -12730,12 +13138,12 @@ function fnCodeIdAdd(codeGb){
                 <tr>
                     <td>6</td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActGroupView('G000050');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('G000050');">
                             G000050
                         </a>
                     </td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActGroupView('G000050');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('G000050');">
                             테스트확인용
                         </a>
                     </td>
@@ -12743,19 +13151,19 @@ function fnCodeIdAdd(codeGb){
                     <td>일반관리자</td>
                     <td>2020-04-14</td>
                     <td>
-                        <a href="javascript:void(0);" class="button_v2" onclick="javascript:fnActGroupAuth('G000050');"><span>권한관리</span></a>
+                        <a href="javascript:void(0);" class="button_v2" onclick="javascript:go_write_url3('G000050');"><span>권한관리</span></a>
                     </td>
                 </tr>
 
                 <tr>
                     <td>5</td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActGroupView('G000002');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('G000002');">
                             G000002
                         </a>
                     </td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActGroupView('G000002');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('G000002');">
                             신청관리자
                         </a>
                     </td>
@@ -12763,19 +13171,19 @@ function fnCodeIdAdd(codeGb){
                     <td>일반관리자</td>
                     <td>2017-10-25</td>
                     <td>
-                        <a href="javascript:void(0);" class="button_v2" onclick="javascript:fnActGroupAuth('G000002');"><span>권한관리</span></a>
+                        <a href="javascript:void(0);" class="button_v2" onclick="javascript:go_write_url3('G000002');"><span>권한관리</span></a>
                     </td>
                 </tr>
 
                 <tr>
                     <td>4</td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActGroupView('G000013');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('G000013');">
                             G000013
                         </a>
                     </td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActGroupView('G000013');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('G000013');">
                             게시판 관리자
                         </a>
                     </td>
@@ -12783,19 +13191,19 @@ function fnCodeIdAdd(codeGb){
                     <td>일반관리자</td>
                     <td>2017-12-19</td>
                     <td>
-                        <a href="javascript:void(0);" class="button_v2" onclick="javascript:fnActGroupAuth('G000013');"><span>권한관리</span></a>
+                        <a href="javascript:void(0);" class="button_v2" onclick="javascript:go_write_url3('G000013');"><span>권한관리</span></a>
                     </td>
                 </tr>
 
                 <tr>
                     <td>3</td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActGroupView('G000021');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('G000021');">
                             G000021
                         </a>
                     </td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActGroupView('G000021');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('G000021');">
                             테스트
                         </a>
                     </td>
@@ -12803,19 +13211,19 @@ function fnCodeIdAdd(codeGb){
                     <td>일반관리자</td>
                     <td>2019-03-13</td>
                     <td>
-                        <a href="javascript:void(0);" class="button_v2" onclick="javascript:fnActGroupAuth('G000021');"><span>권한관리</span></a>
+                        <a href="javascript:void(0);" class="button_v2" onclick="javascript:go_write_url3('G000021');"><span>권한관리</span></a>
                     </td>
                 </tr>
 
                 <tr>
                     <td>2</td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActGroupView('G000030');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('G000030');">
                             G000030
                         </a>
                     </td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActGroupView('G000030');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('G000030');">
                             김태촌
                         </a>
                     </td>
@@ -12823,19 +13231,19 @@ function fnCodeIdAdd(codeGb){
                     <td>일반관리자</td>
                     <td>2019-05-07</td>
                     <td>
-                        <a href="javascript:void(0);" class="button_v2" onclick="javascript:fnActGroupAuth('G000030');"><span>권한관리</span></a>
+                        <a href="javascript:void(0);" class="button_v2" onclick="javascript:go_write_url3('G000030');"><span>권한관리</span></a>
                     </td>
                 </tr>
 
                 <tr>
                     <td>1</td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActGroupView('G000000');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('G000000');">
                             G000000
                         </a>
                     </td>
                     <td>
-                        <a href="javascript:void(0);" onclick="javascript:fnActGroupView('G000000');">
+                        <a href="javascript:void(0);" onclick="javascript:go_modify_url('G000000');">
                             기본그룹
                         </a>
                     </td>
@@ -12843,7 +13251,7 @@ function fnCodeIdAdd(codeGb){
                     <td></td>
                     <td>2017-10-25</td>
                     <td>
-                        <a href="javascript:void(0);" class="button_v2" onclick="javascript:fnActGroupAuth('G000000');"><span>권한관리</span></a>
+                        <a href="javascript:void(0);" class="button_v2" onclick="javascript:go_write_url3('G000000');"><span>권한관리</span></a>
                     </td>
                 </tr>
             </tbody>
@@ -12879,13 +13287,28 @@ function fnCodeIdAdd(codeGb){
 <script type="text/javascript">
     var seg2 = '{{@request()->segment(2)}}'+'/';
     var seg3 = '{{@request()->segment(3)}}'+'/';
+    var seg3_1 = '{{@request()->segment(3)}}'+'_detail/';
+    var seg3_2 = '{{@request()->segment(3)}}'+'_detail/';
+    console.log("/boffice/"+seg2+seg3+'view');
 
     function go_write_url(){
         location.href = "/boffice/"+seg2+seg3+'write';
     }
 
+    function go_write_url2(){
+        location.href = "/boffice/"+seg2+seg3_1+'write';
+    }
+
+    function go_write_url3(){
+        location.href = "/boffice/"+seg2+seg3_2+'write';
+    }
+
     function go_modify_url(){
         location.href = "/boffice/"+seg2+seg3+'modify';
+    }
+
+    function go_view_url(){
+        location.href = "/boffice/"+seg2+seg3+'view';
     }
 </script>
 </section>

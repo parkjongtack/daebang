@@ -639,6 +639,10 @@ Route::get('/boffice/site/authority/write', function () {
     return view('/boffice/page/bbs/write');
 });
 
+Route::get('/boffice/site/authority_detail/write', function () {
+    return view('/boffice/page/bbs/write');
+});
+
 //글쓰기 끝
 
 //글수정 시작
@@ -840,6 +844,78 @@ Route::get('/boffice/site/authority/modify', function () {
 });
 
 //글수정 끝
+
+//글보기 시작
+
+Route::get('/boffice/cs_center/video_qa/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+Route::get('/boffice/cs_center/bookstore/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+Route::get('/boffice/cs_center/one/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+Route::get('/boffice/cs_center/free/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+Route::get('/boffice/cs_center/video_learning/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+Route::get('/boffice/cs_center/faq/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+Route::get('/boffice/community/news/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+Route::get('/boffice/community/notice/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+Route::get('/boffice/community/passing/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+Route::get('/boffice/community/origin/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+Route::get('/boffice/community/announcement/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+Route::get('/boffice/community/competition/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+Route::get('/boffice/community/examinee/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+Route::get('/boffice/community/learning/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+Route::get('/boffice/community/errata/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+Route::get('/boffice/community/bookstore/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+Route::get('/boffice/community/practice/view', function () {
+    return view('/boffice/page/bbs/view');
+});
+
+//글보기 끝
 //----------------------------------------------------------------------
 //관리자 페이지 끝
 //----------------------------------------------------------------------

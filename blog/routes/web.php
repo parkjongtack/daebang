@@ -447,6 +447,10 @@ Route::get('/boffice/lecture/video/write', function () {
     return view('/boffice/page/bbs/write');
 });
 
+Route::get('/boffice/lecture/video_detail/write', function () {
+    return view('/boffice/page/bbs/write');
+});
+
 Route::get('/boffice/lecture/class/write', function () {
     return view('/boffice/page/bbs/write');
 });
@@ -640,6 +644,10 @@ Route::get('/boffice/site/authority/write', function () {
 //글수정 시작
 
 Route::get('/boffice/lecture/video/modify', function () {
+    return view('/boffice/page/bbs/modify');
+});
+
+Route::get('/boffice/lecture/video_detail/modify', function () {
     return view('/boffice/page/bbs/modify');
 });
 

@@ -219,22 +219,24 @@ td.list-btn>div:first-child {
     font-weight: normal;
 }
 
-body.pop .btnsWrap {
+.pop .btnsWrap {
     margin-top: 14px;
     margin-bottom: 4px;
 }
 
-body.pop .btnsWrap button {
+.pop .btnsWrap button {
     width: 88px;
     height: 28px;
 }
 
-body.pop button.colorBtn {
+.pop button.colorBtn {
     width: 88px;
     height: 28px;
 }
-
-body.pop .commonTable th {
+.ui-dialog{
+    font-size: 14px;
+}
+.pop .commonTable th {
     background: #f1f6f9;
     font-weight: normal;
     height: auto !important;
@@ -244,31 +246,31 @@ body.pop .commonTable th {
     line-height: 120%;
 }
 
-body.pop fieldset {
+.pop fieldset {
     clear: both;
     margin-top: 10px;
 }
 
-body.pop fieldset:first-child {
+.pop fieldset:first-child {
     margin-top: 0;
 }
 
-body.pop fieldset>p {
+.pop fieldset>p {
     font-weight: bolder;
 }
 
-body.pop th {
+.pop th {
     height: 32px;
     line-height: 120%;
 }
 
-body.pop td label {
+.pop td label {
     display: inline-block;
     width: 70px;
     line-height: 120%;
 }
 
-body.pop .pageNation {
+.pop .pageNation {
     margin-top: 10px;
 }
 

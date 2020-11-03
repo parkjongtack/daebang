@@ -1,5 +1,26 @@
 @include('/boffice/inc/head')
 @if(request()->segment(2) == 'lecture' && request()->segment(3) == 'cate')
+<script type="text/javascript">
+function fnCodeIdAdd(codeGb){
+	if($(".newCodeGb"+codeGb).size()>0){
+		return;
+	}
+	var size1 = "<c:out value='${fn:length(resultList)}'/>";
+	var size2 = "<c:out value='${fn:length(resultList2)}'/>";
+	var sizeCnt = 0;
+	if(codeGb == 'LE'){ sizeCnt = size1; }
+	if(codeGb == 'CL'){ sizeCnt = size2; }
+	sizeCnt = (sizeCnt*1)+1;
+	var str = '<tr>' +
+		'<td><input type="hidden" id="newCodeGb" class="newCodeGb'+codeGb+'" value="'+codeGb+'"><input type="text" id="newCodeNm" value="" style="width:140px;"></td>' +
+		'<td><input type="text" id="newCodeSq" value="'+sizeCnt+'" style="width:30px;"></td>' +
+		'<td><select id="newCodeUseYn" style="width:60px;"><option value="Y">사용</option><option value="N">미사용</option></select></td>' +
+		'<td onclick="javascript:fnCodeIdAddSave(this);" style="cursor:pointer;" data-gb="'+codeGb+'">저장</td>' +
+		'<td onclick="javascript:fnCodeIdAddCancel(this);" style="cursor:pointer;">취소</td>' +
+		'</tr>';
+	$("#codeIdAddRowPoint"+codeGb).prepend(str);
+}
+</script>
 <section class="rightCont">
     <div class="rightTitle">
         <h3>카테고리 관리</h3>
@@ -849,7 +870,6 @@
         </div>
     </div>
 </section>
-
 @elseif(request()->segment(2) == 'lecture' && request()->segment(3) == 'video')
 <section class="rightCont">
     <div class="rightTitle">
@@ -10302,7 +10322,6 @@
         <!--//pagenation-->
     </div>
 </section>
-
 @elseif(request()->segment(2) == 'site' && request()->segment(3) == 'main_banner')
 <section class="rightCont">
     <div class="rightTitle">
@@ -11909,7 +11928,6 @@
         </div>
     </div>
 </section>
-
 @elseif(request()->segment(2) == 'site' && request()->segment(3) == 'bbs')
 <section class="rightCont">
     <div class="rightTitle">
@@ -12540,7 +12558,6 @@
         <!--//menuTable-->
     </div>
 </section>
-
 @elseif(request()->segment(2) == 'site' && request()->segment(3) == 'basket')
 <section class="rightCont">
     <div class="rightTitle">
@@ -12842,7 +12859,6 @@
         <!-- //pagingType03 -->
     </div>
 </section>
-
 @elseif(request()->segment(2) == 'site' && request()->segment(3) == 'otp')
 <section class="rightCont">
     <div class="rightTitle">

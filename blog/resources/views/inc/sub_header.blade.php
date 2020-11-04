@@ -47,7 +47,7 @@
                 </div>
             </div>
         </header>
-        @if(request()->segment(1) == 'guide' || request()->segment(1) == 'arcademy' || request()->segment(1) == 'community' || request()->segment(1) == 'video')
+        @if(request()->segment(1) == 'arcademy' || request()->segment(1) == 'video')
         <div id="section" class="green">
         @else
         <div id="section">
@@ -58,7 +58,7 @@
                 @else
                 <div id="side_menu">
                     @if(request()->segment(1) == 'guide')
-                    <ul class="sub_menu_box green">
+                    <ul class="sub_menu_box">
                         <li class="top_name"><h2>이용가이드</h2></li>
                         <li class="@if(request()->segment(2) == 'obstacle')on @endif">
                             <a href="/guide/obstacle">동영상 장애가이드<i class="fas fa-chevron-right"></i></a>
@@ -96,20 +96,38 @@
                         </li>
                     </ul>
                     @elseif(request()->segment(1) == 'community')
-                    <ul class="sub_menu_box green">
-                        <li class="top_name"><h2>커뮤니티</h2></li>
+                    <ul class="sub_menu_box">
+                        <li class="top_name"><h2>학원안내</h2></li>
                         <li class="@if(request()->segment(2) == 'greeting')on @endif">
                             <a href="/community/bbs/board_list">학원소식<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'history')on @endif">
-                            <a href="/community/bbs/board_list">공지사항<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/board_list">주요 공지사항<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'history')on @endif">
+                            <a href="/community/bbs/board_list">교수님 소개<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'pass')on @endif">
+                            <a href="/community/bbs/board_list">자유 게시판<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'real_pass')on @endif">
                             <a href="/community/bbs/board_list">자주하는 질문<i class="fas fa-chevron-right"></i></a>
                         </li>
-                        <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">자유 게시판<i class="fas fa-chevron-right"></i></a>
-                        </li>Lecture
+                        <li class="@if(request()->segment(2) == 'real_pass')on @endif">
+                            <a href="/community/bbs/board_list">인사말<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'real_pass')on @endif">
+                            <a href="/community/bbs/board_list">운영방식 및 연혁<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'real_pass')on @endif">
+                            <a href="/community/bbs/board_list">학원오시는길<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'real_pass')on @endif">
+                            <a href="/community/bbs/board_list">추천카페 안내<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'real_pass')on @endif">
+                            <a href="/community/bbs/board_list">강사님 초빙<i class="fas fa-chevron-right"></i></a>
+                        </li>
                     </ul>
                     {{-- @elseif(request()->segment(1) == 'lecture' && request()->segment(2) == 'moving')
                     <ul class="sub_menu_box green">
@@ -411,6 +429,50 @@
                             <a href="/community/bbs/board_list">자유 게시판<i class="fas fa-chevron-right"></i></a>
                         </li>
                     </ul>
+                    @elseif(request()->segment(1) == 'site_info' && request()->segment(2) == 'my_page')
+                    <ul class="sub_menu_box">
+                        <li class="top_name"><h2>마이 페이지</h2></li>
+                        <li class="@if(request()->segment(3) == 'order')on @endif">
+                            <a href="/site_info/my_page/order">주문/배송현황<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(3) == 'receipt')on @endif">
+                            <a href="/site_info/my_page/receipt">영수증<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(3) == 'shopping')on @endif">
+                            <a href="/site_info/my_page/shopping">장바구니<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(5) == 'video_qa')on @endif">
+                            <a href="/site_info/my_page/bbs/list/video_qa">동영상 Q&A<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(5) == 'bookstore_qa')on @endif">
+                            <a href="/site_info/my_page/bbs/list/bookstore_qa">인터넷 서점 Q&A<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(5) == 'inquiry')on @endif">
+                            <a href="/site_info/my_page/bbs/list/inquiry">1:1문의<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(3) == 'my_info')on @endif">
+                            <a href="/site_info/my_page/my_info">회원정보 관리<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(3) == 'member_out')on @endif">
+                            <a href="/site_info/my_page/member_out">회원탈퇴<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                    </ul>
+                    @elseif(request()->segment(1) == 'site_info' && request()->segment(2) == 'my_classroom')
+                    <ul class="sub_menu_box">
+                        <li class="top_name"><h2>나의강의실</h2></li>
+                        <li class="@if(request()->segment(3) == 'running')on @endif">
+                            <a href="/site_info/my_classroom/running">수강중인 강의<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(3) == 'running_end')on @endif">
+                            <a href="/site_info/my_classroom/running_end">수강종료 강의<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(3) == 'device')on @endif">
+                            <a href="/site_info/my_classroom/device">수강 기기인증<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(5) == 'practice')on @endif">
+                            <a href="/site_info/my_classroom/bbs/list/practice">모의고사 다운로드<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                    </ul>
                     @else
                     <ul class="sub_menu_box">
                         <li class="top_name"><h2>사이트안내</h2></li>
@@ -423,62 +485,16 @@
                         <li class="@if(request()->segment(2) == 'agree')on @endif">
                             <a href="/site_info/agree">이메일 무단수집 거부<i class="fas fa-chevron-right"></i></a>
                         </li>
-                        <li class="@if(request()->segment(1) == 'join')on @endif">
-                            <a href="/join/join_step1">회원가입<i class="fas fa-chevron-right"></i></a>
+                        <li class="@if(request()->segment(2) == 'join')on @endif">
+                            <a href="/site_info/join/join1">회원가입<i class="fas fa-chevron-right"></i></a>
                         </li>
-                        <li class="@if(request()->segment(1) == 'login')on @endif">
-                            <a href="/login">로그인<i class="fas fa-chevron-right"></i></a>
+                        <li class="@if(request()->segment(2) == 'login')on @endif">
+                            <a href="/site_info/login">로그인<i class="fas fa-chevron-right"></i></a>
                         </li>
-                        <li class="@if(request()->segment(2) == 'my_page')on @endif">
-                            <a href="/site_info/my_page/order">마이페이지<i class="fas fa-chevron-right"></i></a>
-                        </li>
-                        @if(request()->segment(2) == 'my_page')
-                        <li class="side_menu_sub @if(request()->segment(3) == 'order')on @endif">
-                            <a href="/site_info/my_page/order">ㄴ주문/배송현황</a>
-                        </li>
-                        <li class="side_menu_sub @if(request()->segment(3) == 'receipt')on @endif">
-                            <a href="/site_info/my_page/receipt">ㄴ영수증</a>
-                        </li>
-                        <li class="side_menu_sub @if(request()->segment(3) == 'shopping')on @endif">
-                            <a href="/site_info/my_page/shopping">ㄴ장바구니</a>
-                        </li>
-                        <li class="side_menu_sub @if(request()->segment(3) == 'video_qa')on @endif">
-                            <a href="/site_info/my_page/video_qa">ㄴ동영상 Q&A</a>
-                        </li>
-                        <li class="side_menu_sub @if(request()->segment(3) == 'bookstore_qa')on @endif">
-                            <a href="/site_info/my_page/bookstore_qa">ㄴ인터넷 서점 Q&A</a>
-                        </li>
-                        <li class="side_menu_sub @if(request()->segment(3) == 'inquiry')on @endif">
-                            <a href="/site_info/my_page/inquiry">ㄴ1:1문의</a>
-                        </li>
-                        <li class="side_menu_sub @if(request()->segment(3) == 'my_info')on @endif">
-                            <a href="/site_info/my_page/my_info">ㄴ회원정보 관리</a>
-                        </li>
-                        <li class="side_menu_sub no_after @if(request()->segment(3) == 'member_out')on @endif">
-                            <a href="/site_info/my_page/member_out">ㄴ회원탈퇴</a>
-                        </li>
-                        @endif
-                        <li class="@if(request()->segment(2) == 'my_classroom')on @endif">
-                            <a href="/site_info/my_classroom/running">나의강의실<i class="fas fa-chevron-right"></i></a>
-                        </li>
-                        @if(request()->segment(2) == 'my_classroom')
-                        <li class="side_menu_sub @if(request()->segment(3) == 'running')on @endif">
-                            <a href="/site_info/my_classroom/running">ㄴ수강중인 강의</a>
-                        </li>
-                        <li class="side_menu_sub @if(request()->segment(3) == 'running_end')on @endif">
-                            <a href="/site_info/my_classroom/running_end">ㄴ수강종료 강의</a>
-                        </li>
-                        <li class="side_menu_sub @if(request()->segment(3) == 'device')on @endif">
-                            <a href="/site_info/my_classroom/device">ㄴ수강 기기인증</a>
-                        </li>
-                        <li class="side_menu_sub no_after @if(request()->segment(3) == 'practice')on @endif">
-                            <a href="/site_info/my_classroom/practice">ㄴ모의고사 다운로드</a>
-                        </li>
-                        @endif
                     </ul>
                     @endif
                     <div class="side_middle_box">
-                        @if(request()->segment(1) == 'guide')
+                        {{-- @if(request()->segment(1) == 'guide')
                         <a href="/guide/obstacle">
                             <img src="/img/side_middle_box_img3.png" alt="동영상 장애 가이드">
                         </a>
@@ -486,7 +502,7 @@
                         <a href="/guide/ban">
                             <img src="/img/side_middle_box_img4.png" alt="아이디 공유금지">
                         </a>
-                        @else
+                        @else --}}
                         <a href="/guide/obstacle">
                             <img src="/img/side_middle_box_img1.png" alt="동영상 장애 가이드">
                         </a>
@@ -494,7 +510,7 @@
                         <a href="/guide/ban">
                             <img src="/img/side_middle_box_img2.png" alt="아이디 공유금지">
                         </a>
-                        @endif
+                        {{-- @endif --}}
                         
                     </div>
                     <div class="side_cs_box">
@@ -502,7 +518,7 @@
                         <h2 class="ft_gm">02-823-4700</h2>
                         <p>월~금 09:00~18:00<br/>토 09:00~14:00 (일, 공휴일 휴무)</p>
                         <a href="/arcademy/map">찾아오시는 길<i class="fas fa-chevron-right"></i></a>
-                        <a href="/site_info/my_page/inquiry">1:1 고객센터<i class="fas fa-chevron-right"></i></a>
+                        <a href="/site_info/my_page/bbs/write/inquiry">1:1 고객센터<i class="fas fa-chevron-right"></i></a>
                     </div>
                 </div>
                 @endif

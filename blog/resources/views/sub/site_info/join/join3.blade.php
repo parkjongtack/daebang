@@ -19,7 +19,7 @@
         </li>
     </ul>
     <h2 class="sub_page_title">정보입력<span class="pink">*는 필수항목입니다.</span></h2>
-    <form action="" class="join_form info">
+    <form action="/site_info/join/join4" class="join_form info" method="POST">
         <ul>
             <li>
                 <div class="half_line">

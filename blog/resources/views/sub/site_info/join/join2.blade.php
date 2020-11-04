@@ -19,7 +19,7 @@
         </li>
     </ul>
     <h2 class="sub_page_title bar">가입인증</h2>
-    <form action="/join/join_step3" method="POST" onsubmit="return agree_check()" class="join_form">
+    <form action="/site_info/join/join3" method="POST" onsubmit="return agree_check()" class="join_form">
         {{ csrf_field() }}
         <div class="join_agree_box">
             <h3>이용약관 <span>(필수)</span></h3>

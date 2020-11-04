@@ -50,7 +50,7 @@
         </div>
         <header id="header">
             <div class="top_banner">
-                <img src="/img/top_banner_sample.png" alt="">
+                <img src="/img/top_banner_sample.png" alt="img">
             </div>
             <div class="member_box">
                 <div class="inner">
@@ -69,17 +69,17 @@
                 <div class="inner">
                     <div class="my_content">
                         <a href="/site_info/my_classroom/running">
-                            <img src="/img/my_img1.png" alt="">
+                            <img src="/img/my_img1.png" alt="img">
                         </a>
                     </div>
                     <div class="logo">
                         <a href="/">
-                            <img src="/img/logo.png" alt="">
+                            <img src="/img/logo.png" alt="img">
                         </a>
                     </div>
                     <div class="logo_banner">
                         <a href="#none">
-                            <img src="/img/logo_banner.png" alt="">
+                            <img src="/img/logo_banner.png" alt="img">
                         </a>
                     </div>
                 </div>
@@ -94,38 +94,38 @@
                 </li>
                 <li>
                     <a href="/video">
-                        <img src="/img/gnb_top.png" alt="" class="top_img">
-                        <img src="/img/gnb_ico1.png" alt="">
+                        <img src="/img/gnb_top.png" alt="img" class="top_img">
+                        <img src="/img/gnb_ico1.png" alt="img">
                         동영상 강의
                     </a>
                 </li>
                 <li>
                     <a href="/lecture">
-                        <img src="/img/gnb_ico2.png" alt="">
+                        <img src="/img/gnb_ico2.png" alt="img">
                         현장강의
                     </a>
                 </li>
                 <li>
                     <a href="/bookstore">
-                        <img src="/img/gnb_ico3.png" alt="">
+                        <img src="/img/gnb_ico3.png" alt="img">
                         인터넷서점
                     </a>
                 </li>
                 <li>
                     <a href="/bbs/board_list">
-                        <img src="/img/gnb_ico4.png" alt="">
+                        <img src="/img/gnb_ico4.png" alt="img">
                         시험공고
                     </a>
                 </li>
                 <li>
                     <a href="/community/bbs/board_list">
-                        <img src="/img/gnb_ico5.png" alt="">
+                        <img src="/img/gnb_ico5.png" alt="img">
                         학원안내
                     </a>
                 </li>
                 <li>
                     <a href="/community/bbs/board_list">
-                        <img src="/img/gnb_ico6.png" alt="">
+                        <img src="/img/gnb_ico6.png" alt="img">
                         합격 연구소
                     </a>
                 </li>

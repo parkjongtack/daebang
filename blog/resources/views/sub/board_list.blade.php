@@ -63,7 +63,7 @@
                 </div>
             </div>
             <div class="write_box">
-                <a href="/community/bbs/board_write?be_type=1">글쓰기</a>
+            <a href="/{{ request()->segment(1).'/'.request()->segment(2).'/bbs/write/'.request()->segment(5) }}">글쓰기</a>
             </div>
         </div>
     </div>

@@ -172,6 +172,7 @@ $(document).ready(function(){
 var first_val;
 var flag = 0;
     $('.fas').click(function(){
+        $(this).toggleClass('on');
         $(this).parent().next().toggle();
         $($(this).parent().next().find(".per_outer")).each(function(){
     

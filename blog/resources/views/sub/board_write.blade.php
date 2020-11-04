@@ -1,18 +1,7 @@
 @include('inc/head')
 <div id="section_inner">
     <h2 class="sub_page_title bar gray">
-        <?php
-            if(isset($_GET['be_type'])){
-                $be_type = $_GET['be_type'];
-                if($be_type == 'bookstore'){
-                    echo '동영상 Q&A';
-                }else if($be_type == 'video'){
-                    echo '인터넷서점 Q&A';
-                }else{
-                    echo '1:1 문의';
-                }
-            }
-        ?>
+        
     </h2>
     <div class="member_out">
         <form action="" class="join_form info">
@@ -25,9 +14,6 @@
                         </div>
                     </div>
                 </li>
-                <?php
-                    if($be_type != 'bookstore' && $be_type != 'video'){
-                ?>
                 <li>
                     <div class="all_line">
                         <div class="input_title">분류 </div>
@@ -47,7 +33,6 @@
                         </div>
                     </div>
                 </li>
-            <?php } ?>
                 <li>
                     <div class="all_line">
                         <div class="input_title">제목 </div>

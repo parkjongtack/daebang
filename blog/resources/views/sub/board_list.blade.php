@@ -31,21 +31,21 @@
                 </tr>
                 <tr>
                     <td><span class="top">공지</span></td>
-                    <td><a href="/community/bbs/board_view">동영상강의 Q&A입니다.</a></td>
+                    <td><a href="/{{ request()->segment(1).'/'.request()->segment(2).'/bbs/view'.request()->segment(5) }}">동영상강의 Q&A입니다.</a></td>
                     <td>2020-01-01</td>
                     <td>강산</td>
                     <td>99</td>
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td><a href="/community/bbs/board_view">동영상강의 Q&A입니다.</a></td>
+                    <td><a href="/{{ request()->segment(1).'/'.request()->segment(2).'/bbs/view'.request()->segment(5) }}">동영상강의 Q&A입니다.</a></td>
                     <td>2020-01-01</td>
                     <td>강산</td>
                     <td>99</td>
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td><a href="/community/bbs/board_view">동영상강의 Q&A입니다.</a></td>
+                    <td><a href="/{{ request()->segment(1).'/'.request()->segment(2).'/bbs/view'.request()->segment(5) }}">동영상강의 Q&A입니다.</a></td>
                     <td>2020-01-01</td>
                     <td>강산</td>
                     <td>99</td>

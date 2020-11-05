@@ -38,7 +38,7 @@
     <div class="main_sub_cate">
         <ul class="inner">
             <li>
-                <a href="/arcademy/real_pass">
+                <a href="/laboratory/pass/bbs/list">
                     <img src="/img/main_sub_cate1.png" alt="">
                     <p>합격수기</p>
                 </a>
@@ -81,12 +81,12 @@
     </div>
     <div class="main_notieven_box inner">
         <div class="main_notice_box">
-            <h3>공지사항<span><a href="/community/bbs/board_list">+</a></span></h3>
+            <h3>공지사항<span><a href="/a_guide/notice/bbs/list">+</a></span></h3>
             <ul>
-                <li><a href="/community/bbs/board_view">대방열림고시학원에서 알려드립니다.1</a></li>
-                <li><a href="/community/bbs/board_view">대방열림고시학원에서 알려드립니다.2</a></li>
-                <li><a href="/community/bbs/board_view">대방열림고시학원에서 알려드립니다.3</a></li>
-                <li><a href="/community/bbs/board_view">대방열림고시학원에서 알려드립니다.4</a></li>
+                <li><a href="/a_guide/notice/bbs/view">대방열림고시학원에서 알려드립니다.1</a></li>
+                <li><a href="/a_guide/notice/bbs/view">대방열림고시학원에서 알려드립니다.2</a></li>
+                <li><a href="/a_guide/notice/bbs/view">대방열림고시학원에서 알려드립니다.3</a></li>
+                <li><a href="/a_guide/notice/bbs/view">대방열림고시학원에서 알려드립니다.4</a></li>
             </ul>
         </div>
         <div class="main_event_box">
@@ -142,7 +142,7 @@
                 <P class="gray">
                     월~금 09:00~18:00<br/>토 09:00~14:00 (일, 공휴일 휴무)
                 </P>
-                <a href="/bbs/board_list" class="go_btn">자주하는 질문 바로가기</a>
+                <a href="/a_guide/faq" class="go_btn">자주하는 질문 바로가기</a>
             </div>
             <div>
                 <h4>동영상강의 입급계좌</h4>

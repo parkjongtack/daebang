@@ -63,56 +63,56 @@
         <div class="list_img_box">
             <ul>
                 <li style="background-image: url('/img/professor_sample_img.png')">
-                    <a href="/lecture/professor/detail">
+                    <a href="/a_guide/lecture/professor/detail">
                         <span class="caption">간호직 공무원</span>
                         <p>2021 간호관리 (정규이론반)</p>
                         <h3><b>오정화</b> 선생님</h3>
                     </a>
                 </li>
                 <li style="background-image: url('/img/professor_sample_img.png')">
-                    <a href="/lecture/professor/detail">
+                    <a href="/a_guide/lecture/professor/detail">
                         <span class="caption">간호직 공무원</span>
                         <p>2021 간호관리 (정규이론반)</p>
                         <h3><b>오정화</b> 선생님</h3>
                     </a>
                 </li>
                 <li style="background-image: url('/img/professor_sample_img.png')">
-                    <a href="/lecture/professor/detail">
+                    <a href="/a_guide/lecture/professor/detail">
                         <span class="caption">간호직 공무원</span>
                         <p>2021 간호관리 (정규이론반)</p>
                         <h3><b>오정화</b> 선생님</h3>
                     </a>
                 </li>
                 <li style="background-image: url('/img/professor_sample_img.png')">
-                    <a href="/lecture/professor/detail">
+                    <a href="/a_guide/lecture/professor/detail">
                         <span class="caption">간호직 공무원</span>
                         <p>2021 간호관리 (정규이론반)</p>
                         <h3><b>오정화</b> 선생님</h3>
                     </a>
                 </li>
                 <li style="background-image: url('/img/professor_sample_img.png')">
-                    <a href="/lecture/professor/detail">
+                    <a href="/a_guide/lecture/professor/detail">
                         <span class="caption">간호직 공무원</span>
                         <p>2021 간호관리 (정규이론반)</p>
                         <h3><b>오정화</b> 선생님</h3>
                     </a>
                 </li>
                 <li style="background-image: url('/img/professor_sample_img.png')">
-                    <a href="/lecture/professor/detail">
+                    <a href="/a_guide/lecture/professor/detail">
                         <span class="caption">간호직 공무원</span>
                         <p>2021 간호관리 (정규이론반)</p>
                         <h3><b>오정화</b> 선생님</h3>
                     </a>
                 </li>
                 <li style="background-image: url('/img/professor_sample_img.png')">
-                    <a href="/lecture/professor/detail">
+                    <a href="/a_guide/lecture/professor/detail">
                         <span class="caption">간호직 공무원</span>
                         <p>2021 간호관리 (정규이론반)</p>
                         <h3><b>오정화</b> 선생님</h3>
                     </a>
                 </li>
                 <li style="background-image: url('/img/professor_sample_img.png')">
-                    <a href="/lecture/professor/detail">
+                    <a href="/a_guide/lecture/professor/detail">
                         <span class="caption">간호직 공무원</span>
                         <p>2021 간호관리 (정규이론반)</p>
                         <h3><b>오정화</b> 선생님</h3>

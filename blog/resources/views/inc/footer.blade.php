@@ -6,10 +6,10 @@
                     </div>
                     <div class="footer_info">
                         <div class="link_box">
-                            <a href="/arcademy/greeting">회사소개</a><span>|</span>
+                            <a href="/a_guide/greeting">회사소개</a><span>|</span>
                             <a href="mailto:028234700@hanmail.net">제휴문의</a><span>|</span>
                             <a href="#none">강사채용</a><span>|</span>
-                            <a href="/arcademy/map">CONTACT US</a><span>|</span>
+                            <a href="/a_guide/map">CONTACT US</a><span>|</span>
                             <a href="/site_info/use_info">이용약관</a><span>|</span>
                             <a href="/site_info/personal">개인정보취급방침</a><span>|</span>
                             <a href="/site_info/agree">이메일무단수집거부</a><span>|</span>
@@ -43,4 +43,9 @@
             </footer>
         </div>
     </div>
+    <script type="text/javascript">
+        var h2_text = $('.sub_menu_box li.on a').text();
+        $('.sub_page_title').text(h2_text);
+        console.log(h2_text);
+    </script>
 </body>

@@ -95,96 +95,96 @@
                             <a href="/arcademy/map">학원 찾아오시는길<i class="fas fa-chevron-right"></i></a>
                         </li>
                     </ul>
-                    @elseif(request()->segment(1) == 'community')
+                    @elseif(request()->segment(1) == 'a_guide')
                     <ul class="sub_menu_box">
                         <li class="top_name"><h2>학원안내</h2></li>
+                        <li class="@if(request()->segment(2) == 'news')on @endif">
+                            <a href="/a_guide/news/bbs/list">학원소식<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'notice')on @endif">
+                            <a href="/a_guide/notice/bbs/list">주요 공지사항<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(3) == 'professor')on @endif">
+                            <a href="/a_guide/lecture/professor">교수님 소개<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'free')on @endif">
+                            <a href="/a_guide/free/bbs/list">자유 게시판<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'faq')on @endif">
+                            <a href="/a_guide/faq">자주하는 질문<i class="fas fa-chevron-right"></i></a>
+                        </li>
                         <li class="@if(request()->segment(2) == 'greeting')on @endif">
-                            <a href="/community/bbs/board_list">학원소식<i class="fas fa-chevron-right"></i></a>
+                            <a href="/a_guide/greeting">인사말<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'history')on @endif">
-                            <a href="/community/bbs/board_list">주요 공지사항<i class="fas fa-chevron-right"></i></a>
+                            <a href="/a_guide/history">운영방식 및 연혁<i class="fas fa-chevron-right"></i></a>
                         </li>
-                        <li class="@if(request()->segment(2) == 'history')on @endif">
-                            <a href="/community/bbs/board_list">교수님 소개<i class="fas fa-chevron-right"></i></a>
+                        <li class="@if(request()->segment(2) == 'map')on @endif">
+                            <a href="/a_guide/map">학원오시는길<i class="fas fa-chevron-right"></i></a>
                         </li>
-                        <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">자유 게시판<i class="fas fa-chevron-right"></i></a>
+                        <li class="@if(request()->segment(2) == 'cafe')on @endif">
+                            <a href="/a_guide/cafe/bbs/view">추천카페 안내<i class="fas fa-chevron-right"></i></a>
                         </li>
-                        <li class="@if(request()->segment(2) == 'real_pass')on @endif">
-                            <a href="/community/bbs/board_list">자주하는 질문<i class="fas fa-chevron-right"></i></a>
-                        </li>
-                        <li class="@if(request()->segment(2) == 'real_pass')on @endif">
-                            <a href="/community/bbs/board_list">인사말<i class="fas fa-chevron-right"></i></a>
-                        </li>
-                        <li class="@if(request()->segment(2) == 'real_pass')on @endif">
-                            <a href="/community/bbs/board_list">운영방식 및 연혁<i class="fas fa-chevron-right"></i></a>
-                        </li>
-                        <li class="@if(request()->segment(2) == 'real_pass')on @endif">
-                            <a href="/community/bbs/board_list">학원오시는길<i class="fas fa-chevron-right"></i></a>
-                        </li>
-                        <li class="@if(request()->segment(2) == 'real_pass')on @endif">
-                            <a href="/community/bbs/board_list">추천카페 안내<i class="fas fa-chevron-right"></i></a>
-                        </li>
-                        <li class="@if(request()->segment(2) == 'real_pass')on @endif">
-                            <a href="/community/bbs/board_list">강사님 초빙<i class="fas fa-chevron-right"></i></a>
+                        <li class="@if(request()->segment(2) == 'invitation')on @endif">
+                            <a href="/a_guide/invitation/bbs/view">강사님 초빙<i class="fas fa-chevron-right"></i></a>
                         </li>
                     </ul>
                     {{-- @elseif(request()->segment(1) == 'lecture' && request()->segment(2) == 'moving')
                     <ul class="sub_menu_box green">
                         <li class="top_name"><h2>전체강좌</h2></li>
                         <li class="@if(request()->segment(2) == 'greeting')on @endif">
-                            <a href="/community/bbs/board_list">간호직 공무원<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">간호직 공무원<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'history')on @endif">
-                            <a href="/community/bbs/board_list">보건직 공무원<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">보건직 공무원<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'real_pass')on @endif">
-                            <a href="/community/bbs/board_list">보건연구사<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">보건연구사<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">보건복지부 공무원<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">보건복지부 공무원<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">보건진료직 공무원<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">보건진료직 공무원<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">의료기술직 공무원<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">의료기술직 공무원<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">방역직 공무원<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">방역직 공무원<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">식품위생직 공무원<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">식품위생직 공무원<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">환경직 공무원<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">환경직 공무원<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">환경연구사<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">환경연구사<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">조리직 공무원<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">조리직 공무원<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">영양교사<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">영양교사<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">보건교사<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">보건교사<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">영양사<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">영양사<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">위생사<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">위생사<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">간호사<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">간호사<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">식품(산업)기사<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">식품(산업)기사<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">교육학<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">교육학<i class="fas fa-chevron-right"></i></a>
                         </li>
                     </ul> --}}
                     @elseif(request()->segment(1) == 'lecture' && request()->segment(2) == '')
@@ -417,16 +417,16 @@
                     <ul class="sub_menu_box green">
                         <li class="top_name"><h2>교수별 소개</h2></li>
                         <li class="@if(request()->segment(2) == 'greeting')on @endif">
-                            <a href="/community/bbs/board_list">학원소식<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">학원소식<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'history')on @endif">
-                            <a href="/community/bbs/board_list">공지사항<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">공지사항<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'real_pass')on @endif">
-                            <a href="/community/bbs/board_list">자주하는 질문<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">자주하는 질문<i class="fas fa-chevron-right"></i></a>
                         </li>
                         <li class="@if(request()->segment(2) == 'pass')on @endif">
-                            <a href="/community/bbs/board_list">자유 게시판<i class="fas fa-chevron-right"></i></a>
+                            <a href="/community/bbs/list">자유 게시판<i class="fas fa-chevron-right"></i></a>
                         </li>
                     </ul>
                     @elseif(request()->segment(1) == 'site_info' && request()->segment(2) == 'my_page')
@@ -471,6 +471,54 @@
                         </li>
                         <li class="@if(request()->segment(5) == 'practice')on @endif">
                             <a href="/site_info/my_classroom/bbs/list/practice">모의고사 다운로드<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                    </ul>
+                    @elseif(request()->segment(1) == 'site_guide')
+                    <ul class="sub_menu_box">
+                        <li class="top_name"><h2>이용가이드</h2></li>
+                        <li class="@if(request()->segment(2) == 'ban')on @endif">
+                            <a href="/site_guide/ban">아이디 공유금지<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'install')on @endif">
+                            <a href="/site_guide/install">프로그램 설치<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'remote')on @endif">
+                            <a href="/site_guide/remote">원격지원<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'site')on @endif">
+                            <a href="/site_guide/site">사이트 이용가이드<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'obstacle')on @endif">
+                            <a href="/site_guide/obstacle">동영상 장애가이드<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                    </ul>
+                    @elseif(request()->segment(1) == 'laboratory')
+                    <ul class="sub_menu_box">
+                        <li class="top_name"><h2>합격 연구소</h2></li>
+                        <li class="@if(request()->segment(2) == 'pass')on @endif">
+                            <a href="/laboratory/pass/bbs/list">합격수기<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'install')on @endif">
+                            <a href="/laboratory/">온라인 모의고사<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'remote')on @endif">
+                            <a href="/laboratory/remote">합격예측 서비스<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'exam')on @endif">
+                            <a href="/laboratory/exam/bbs/list">시험 제대로 알기<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'local')on @endif">
+                            <a href="/laboratory/local/bbs/list">본원출신 합격자<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                    </ul>
+                    @elseif(request()->segment(1) == 'announcement')
+                    <ul class="sub_menu_box">
+                        <li class="top_name"><h2>시험공고</h2></li>
+                        <li class="@if(request()->segment(2) == 'competition')on @endif">
+                            <a href="/announcement/competition/bbs/list">시험공고/경쟁률/합격선<i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="@if(request()->segment(2) == 'news')on @endif">
+                            <a href="/announcement/news/bbs/list">수험가 뉴스<i class="fas fa-chevron-right"></i></a>
                         </li>
                     </ul>
                     @else

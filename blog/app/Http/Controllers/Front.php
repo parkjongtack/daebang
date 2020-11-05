@@ -70,6 +70,210 @@ class Front extends Controller
 
     }
 
+    public function a_guide(Request $request) {
+
+        $return_list = array();
+        $view_sub = '/sub';
+
+        //게시판
+        if($request->segment(1) == 'a_guide' && $request->segment(2) == 'news' && $request->segment(3) == 'bbs'){
+
+            $view_sub .= '/board_'.$request->segment(4);
+            echo $view_sub;
+            return view($view_sub, $return_list);
+
+        }
+
+        if($request->segment(1) == 'a_guide' && $request->segment(2) == 'notice' && $request->segment(3) == 'bbs'){
+
+            $view_sub .= '/board_'.$request->segment(4);
+            echo $view_sub;
+            return view($view_sub, $return_list);
+
+        }
+
+        if($request->segment(1) == 'a_guide' && $request->segment(2) == 'free' && $request->segment(3) == 'bbs'){
+
+            $view_sub .= '/board_'.$request->segment(4);
+            echo $view_sub;
+            return view($view_sub, $return_list);
+
+        }
+
+        if($request->segment(1) == 'a_guide' && $request->segment(2) == 'lecture' && $request->segment(3) == 'professor'){
+
+            if($request->segment(1) != '') $view_sub .= '/'.$request->segment(1);
+            if($request->segment(2) != '') $view_sub .= '/'.$request->segment(2);
+            if($request->segment(3) != '') $view_sub .= '/'.$request->segment(3);
+
+            if($request->segment(4) == 'detail'){
+                $view_sub .= '/detail';
+            }else{
+
+                $view_sub .= '/list';
+            }
+            echo $view_sub;
+            return view($view_sub, $return_list);
+
+        }
+
+        if($request->segment(1) != '') $view_sub .= '/'.$request->segment(1);
+        if($request->segment(2) != '') $view_sub .= '/'.$request->segment(2);
+        if($request->segment(3) != '') $view_sub .= '/'.$request->segment(3);
+        if($request->segment(4) != '') $view_sub .= '/'.$request->segment(4);
+        if($request->segment(5) != '') $view_sub .= '/'.$request->segment(5);
+
+        // if()
+        echo $view_sub;
+
+        $return_list = array();
+
+		return view($view_sub, $return_list);
+
+    }
+
+    public function lecture(Request $request) {
+
+        $return_list = array();
+        $view_sub = '/sub';
+        $view_sub .= '/lecture/index';
+
+        return view($view_sub, $return_list);
+    }
+
+    public function video(Request $request) {
+
+        $return_list = array();
+        $view_sub = '/sub';
+
+        if($request->segment(2) == ''){
+
+            $view_sub .= '/video/index';
+            echo $view_sub;
+            return view($view_sub, $return_list);
+
+        }
+
+        if($request->segment(1) != '') $view_sub .= '/'.$request->segment(1);
+        if($request->segment(2) != '') $view_sub .= '/'.$request->segment(2);
+        if($request->segment(3) != '') $view_sub .= '/'.$request->segment(3);
+        if($request->segment(4) != '') $view_sub .= '/'.$request->segment(4);
+        if($request->segment(5) != '') $view_sub .= '/'.$request->segment(5);
+
+        // if()
+        echo $view_sub;
+
+        $return_list = array();
+
+		return view($view_sub, $return_list);
+
+    }
+
+    public function bookstore(Request $request) {
+
+        $return_list = array();
+        $view_sub = '/sub';
+
+        if($request->segment(2) == ''){
+
+            $view_sub .= '/bookstore/index';
+            echo $view_sub;
+            return view($view_sub, $return_list);
+
+        }
+
+        if($request->segment(1) != '') $view_sub .= '/'.$request->segment(1);
+        if($request->segment(2) != '') $view_sub .= '/'.$request->segment(2);
+        if($request->segment(3) != '') $view_sub .= '/'.$request->segment(3);
+        if($request->segment(4) != '') $view_sub .= '/'.$request->segment(4);
+        if($request->segment(5) != '') $view_sub .= '/'.$request->segment(5);
+
+        // if()
+        echo $view_sub;
+
+        $return_list = array();
+
+		return view($view_sub, $return_list);
+
+    }
+
+    public function site_guide(Request $request) {
+
+        $return_list = array();
+        $view_sub = '/sub';
+
+        if($request->segment(1) != '') $view_sub .= '/'.$request->segment(1);
+        if($request->segment(2) != '') $view_sub .= '/'.$request->segment(2);
+        if($request->segment(3) != '') $view_sub .= '/'.$request->segment(3);
+        if($request->segment(4) != '') $view_sub .= '/'.$request->segment(4);
+        if($request->segment(5) != '') $view_sub .= '/'.$request->segment(5);
+
+        // if()
+        echo $view_sub;
+
+        $return_list = array();
+
+		return view($view_sub, $return_list);
+
+    }
+
+    public function announcement(Request $request) {
+
+        $return_list = array();
+        
+        $view_sub = '/sub';
+        $view_sub .= '/board_'.$request->segment(4);
+
+        echo $view_sub;
+		return view($view_sub, $return_list);
+
+    }
+
+    public function laboratory(Request $request) {
+
+        $return_list = array();
+        $view_sub = '/sub';
+
+        //게시판
+        if($request->segment(1) == 'laboratory' && $request->segment(2) == 'pass' && $request->segment(3) == 'bbs'){
+
+            $view_sub .= '/board_'.$request->segment(4);
+            echo $view_sub;
+            return view($view_sub, $return_list);
+
+        }
+
+        if($request->segment(1) == 'laboratory' && $request->segment(2) == 'exam' && $request->segment(3) == 'bbs'){
+
+            $view_sub .= '/board_'.$request->segment(4);
+            echo $view_sub;
+            return view($view_sub, $return_list);
+
+        }
+
+        if($request->segment(1) == 'laboratory' && $request->segment(2) == 'local' && $request->segment(3) == 'bbs'){
+
+            $view_sub .= '/board_'.$request->segment(4);
+            echo $view_sub;
+            return view($view_sub, $return_list);
+
+        }
+
+        if($request->segment(1) != '') $view_sub .= '/'.$request->segment(1);
+        if($request->segment(2) != '') $view_sub .= '/'.$request->segment(2);
+        if($request->segment(3) != '') $view_sub .= '/'.$request->segment(3);
+        if($request->segment(4) != '') $view_sub .= '/'.$request->segment(4);
+        if($request->segment(5) != '') $view_sub .= '/'.$request->segment(5);
+
+        // if()
+        echo $view_sub;
+
+        $return_list = array();
+
+		return view($view_sub, $return_list);
+
+    }
+
     public function personal(Request $request) {
 
 		return view('/sub/site_info/personal');

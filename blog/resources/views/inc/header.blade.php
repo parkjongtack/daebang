@@ -54,13 +54,13 @@
             </div>
             <div class="member_box">
                 <div class="inner">
-                    <a href="/login">로그인</a>
+                    <a href="/site_info/login">로그인</a>
                     <span>ㅣ</span>
-                    <a href="/join/join_step1">회원가입</a>
+                    <a href="/site_info/join/join1">회원가입</a>
                     <span>ㅣ</span>
                     <a href="/site_info/my_page/shopping">장바구니</a>
                     <span>ㅣ</span>
-                    <a href="/site_info/my_page/inquiry">고객센터</a>
+                    <a href="/site_info/my_page/bbs/write/inquiry">고객센터</a>
                     <span>ㅣ</span>
                     <a href="/">HOME</a>
                 </div>
@@ -112,19 +112,19 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/bbs/board_list">
+                    <a href="/announcement/competition/bbs/list">
                         <img src="/img/gnb_ico4.png" alt="img">
                         시험공고
                     </a>
                 </li>
                 <li>
-                    <a href="/community/bbs/board_list">
+                    <a href="/a_guide/news/bbs/list">
                         <img src="/img/gnb_ico5.png" alt="img">
                         학원안내
                     </a>
                 </li>
                 <li>
-                    <a href="/community/bbs/board_list">
+                    <a href="/laboratory/pass/bbs/list">
                         <img src="/img/gnb_ico6.png" alt="img">
                         합격 연구소
                     </a>
@@ -135,31 +135,31 @@
                     <li>
                         <div class="nav_box">
                             <h3>동영상 강의</h3>
-                            <a href="/video/view">간호직공무원</a>
-                            <a href="/video/view">보건직공무원</a>
-                            <a href="/video/view">보건연구사</a>
-                            <a href="/video/view">보건복지부공무원</a>
-                            <a href="/video/view">의료기술직공무원</a>
-                            <a href="/video/view">보건진료직공무원</a>
-                            <a href="/video/view">환경직공무원</a>
-                            <a href="/video/view">환경연구사</a>
-                            <a href="/video/view">식품위생직공무원</a>
-                            <a href="/video/view">조리직공무원</a>
-                            <a href="/video/view">영양교사</a>
-                            <a href="/video/view">보건교사</a>
-                            <a href="/video/view">영양사</a>
-                            <a href="/video/view">위생사</a>
-                            <a href="/video/view">간호사</a>
-                            <a href="/video/view">식품(산업)기사</a>
-                            <a href="/video/view">과목별 강의</a>
-                            <a href="/video/view">교육학</a>
+                            <a href="/video/list">간호직공무원</a>
+                            <a href="/video/list">보건직공무원</a>
+                            <a href="/video/list">보건연구사</a>
+                            <a href="/video/list">보건복지부공무원</a>
+                            <a href="/video/list">의료기술직공무원</a>
+                            <a href="/video/list">보건진료직공무원</a>
+                            <a href="/video/list">환경직공무원</a>
+                            <a href="/video/list">환경연구사</a>
+                            <a href="/video/list">식품위생직공무원</a>
+                            <a href="/video/list">조리직공무원</a>
+                            <a href="/video/list">영양교사</a>
+                            <a href="/video/list">보건교사</a>
+                            <a href="/video/list">영양사</a>
+                            <a href="/video/list">위생사</a>
+                            <a href="/video/list">간호사</a>
+                            <a href="/video/list">식품(산업)기사</a>
+                            <a href="/video/list">과목별 강의</a>
+                            <a href="/video/list">교육학</a>
                         </div>
                         <div class="nav_box defalut_none">
                             <h3>사이트안내</h3>
                             <a href="/site_info/use_info">이용약관</a>
                             <a href="/site_info/personal">개인정보 취급방침</a>
                             <a href="/site_info/agree">이메일 무단수집 거부</a>
-                            <a href="/join/join_step1">회원가입</a>
+                            <a href="/site_info/join/join1">회원가입</a>
                         </div>
                     </li>
                     <li>
@@ -191,42 +191,42 @@
                     <li>
                         <div class="nav_box">
                             <h3>인터넷서점</h3>
-                            <a href="#none">동영상강의 교재</a>
-                            <a href="#none">현장가의 교재</a>
-                            <a href="#none">서점 공지사항</a>
-                            <a href="#none">교재 정오표</a>
+                            <a href="/bookstore/list">동영상강의 교재</a>
+                            <a href="/bookstore/list">현장가의 교재</a>
+                            <a href="/bookstore/list">서점 공지사항</a>
+                            <a href="/bookstore/list">교재 정오표</a>
                         </div>
                     </li>
                     <li>
                         <div class="nav_box">
                             <h3>시험공고</h3>
-                            <a href="/community/bbs/board_list">시험공고/경쟁률/합격선</a>
-                            <a href="/community/bbs/board_list">수험가 뉴스</a>
+                            <a href="/announcement/competition/bbs/list">시험공고/경쟁률/합격선</a>
+                            <a href="/announcement/news/bbs/list">수험가 뉴스</a>
                         </div>
                     </li>
                     <li>
                         <div class="nav_box">
                             <h3>학원안내</h3>
-                            <a href="/community/bbs/board_list">학원소식</a>
-                            <a href="/community/bbs/board_list">주요 공지사항</a>
-                            <a href="/lecture/professor">교수님 소개</a>
-                            <a href="/community/bbs/board_list">자유게시판</a>
-                            <a href="/community/bbs/board_list">자주하는질문</a>
-                            <a href="/arcademy/greeting">인사말</a>
-                            <a href="/arcademy/history">운영방식 및 연혁</a>
-                            <a href="/arcademy/map">학원오시는길</a>
-                            <a href="/community/bbs/board_list">추천카페 안내</a>
-                            <a href="/community/bbs/board_list">강사님 초빙</a>
+                            <a href="/a_guide/news/bbs/list">학원소식</a>
+                            <a href="/a_guide/notice/bbs/list">주요 공지사항</a>
+                            <a href="/a_guide/lecture/professor">교수님 소개</a>
+                            <a href="/a_guide/free/bbs/list">자유게시판</a>
+                            <a href="/a_guide/faq">자주하는질문</a>
+                            <a href="/a_guide/greeting">인사말</a>
+                            <a href="/a_guide/history">운영방식 및 연혁</a>
+                            <a href="/a_guide/map">학원오시는길</a>
+                            <a href="/a_guide/cafe/bbs/view">추천카페 안내</a>
+                            <a href="/a_guide/invitation/bbs/view">강사님 초빙</a>
                         </div>
                     </li>
                     <li>
                         <div class="nav_box">
                             <h3>합격 연구소</h3>
-                            <a href="/arcademy/real_pass">합격수기</a>
+                            <a href="/laboratory/pass/bbs/list">합격수기</a>
                             <a href="#none">온라인 모의고사</a>
                             <a href="#none">합격예측 서비스</a>
                             <a href="#none">시험 제대로 알기</a>
-                            <a href="/arcademy/pass">본원출신 합격자</a>
+                            <a href="/laboratory/local/bbs/list">본원출신 합격자</a>
                         </div>
                     </li>
                 </ul>

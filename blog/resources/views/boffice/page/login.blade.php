@@ -16,8 +16,10 @@
             function actionLogin() {
                 if (document.loginForm.id.value =="") {
                     alert("아이디를 입력하세요");
+					document.loginForm.id.focus();
                 } else if (document.loginForm.password.value =="") {
                     alert("비밀번호를 입력하세요");
+					document.loginForm.password.focus();
                 } else {
                     document.loginForm.action="/boffice/login_otp";
                     //document.loginForm.j_username.value = document.loginForm.userSe.value + document.loginForm.username.value;
@@ -29,9 +31,9 @@
     </head>
     <body class="loginPage">
       <div class="wrap">
-        <form name="loginForm" action="/boffice/actionLogin.do" method="post">
-			<div style="visibility:hidden;display:none;"><input name="iptSubmit1" type="submit" value="전송" title="전송"></div>
-			
+        <form name="loginForm" action="/boffice/login_otp" method="post" onsubmit="return javascript:actionLogin();">			
+			{{ csrf_field() }}
+			<div style="visibility:hidden;display:none;"><input name="iptSubmit1" type="submit" value="전송" title="전송"></div>			
 			<input type="hidden" id="message" name="message" value="">
           <fieldset>
             <section class="login">

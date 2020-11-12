@@ -1,4 +1,6 @@
 <?php
+session_start();
+//$hashed = base64_encode(hash('sha512', '1234', true));
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;

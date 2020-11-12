@@ -3,6 +3,9 @@ var commonUtil = {
         var chVal="";
         $.ajax({
             url: url,
+			headers: {
+				'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+			},
             data: param,
             type: 'post',
             dataType: dtype,
@@ -39,17 +42,19 @@ var commonUtil = {
                         return result;
                     }
                     if(dtype == 'json' && callback){
-                        callback(result,pa1);
+						callback(result,pa1);
                     }
                 }else{
                     alert("server error");
                 }
             },
             error: function(xhr, status, error){ 
+				console.log(xhr.responseText);
                 alert("error "+error);
             }
         });
-        return chVal;
+
+		return chVal;
     },
     AjaxSynFileCall : function (url, param, dtype, msg, callback){
         //var chVal="";

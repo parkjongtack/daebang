@@ -2,6 +2,7 @@
 <html lang="ko">
     <head>
         <meta charset="UTF-8">
+		<meta name="csrf-token" content="{{ csrf_token() }}">
         <title>대방열림고시학원 관리자</title>
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <link rel="stylesheet" href="/css/jquery-ui.min.css">
@@ -14,36 +15,55 @@
         <script src="/js/back_office/common.js"></script>
         <script type="text/javaScript">
             
-            function actionLogin() {
-                if ($("#user_code").val()=="") {
-                    alert("OTP코드를 입력하세요");
-                } else if ($("#user_code").val()== "youjin") {
-                    var url = '/boffice/actionOtpCheckPass.do';
-                    var param = {otpRegcd:$("#user_code").val()};
-                    commonUtil.AjaxSynCall(url,param,'json','',actionLoginCallBack);
-                } else {
-                    var url = '/boffice/actionOtpCheck.do';
-                    var param = {otpRegcd:$("#user_code").val()};
-                    commonUtil.AjaxSynCall(url,param,'json','',actionLoginCallBack);
-                }
-            }
+			function actionLogin() {
+				if ($("#user_code").val()=="") {
+					alert("OTP코드를 입력하세요");
+				} else {
+					var url = '/boffice/actionOtpCheck';
+					var param = {otpRegcd:$("#user_code").val(),id:$("#id").val()};
+					commonUtil.AjaxSynCall(url,param,'json','',actionLoginCallBack);
+				}
+			}
 
             function actionLoginCallBack(result){
+				console.log(result);
                 var retStr = result.message;
                 if(retStr == "NLOG"){
                     alert("로그인을 하여 주세요");
-                    location.href="/boffice/museAdmLogin.do";
+                    location.href="/boffice/login";
                 }else if(retStr == "NEQ"){
                     alert("OTP코드가 일치하지 않습니다.");
                 }else if(retStr == "Success"){
-                    location.href="/boffice/bbs/bbsList.do?bbsId=BBS_0009";
+                    location.href="/boffice/cs_center/video_qa/list";
                 }else{
                     alert("오류입니다. 다시 시도하여 주세요.");
                 }
             }
         </script>
+		@if($encodedKey == 'NONE')
+		<script type="text/javaScript">
+			function fnAjaxOtpCall(){
+				var url = '/getBarcodeURL';
+				var param = {id:$("#id").val()};
+				commonUtil.AjaxSynCall(url,param,'json','',fnAjaxOtpCallBack);
+			}
+			function fnAjaxOtpCallBack(result){
+				$("#otpQrcode").prop("src",result.url);
+				$("#otpQrcode").css("display","block");
+				$("#otpImg").css("display","none");
+				$("#otpKeycode").html("(제공된키입력시)<br/>계정이름 : manager@yulimgosi.com<br/>키 : "+result.encodedKey);
+			}
+			$(function(){
+				var otpKeySt = "{{ $encodedKey }}";
+				if(otpKeySt!="EXIT"){
+					fnAjaxOtpCall();
+				}
+			});
+		</script>
+		@endif
     </head>
     <body class="loginPage">
+	<input type="hidden" id="id" name="id" value="{{ request()->id }}" />
         <div class="wrap">
             <fieldset>
               <section class="login">
@@ -53,12 +73,14 @@
                   <p style="margin-bottom:10px;"><span id="otpKeycode" style="margin-bottom:7px;"></span></p>
                 </div>
                 <div>
-                  <input type="hidden" name="encodedKey" value="EXIT">
+                  <input type="hidden" name="encodedKey" value="{{ $encodedKey }}">
                   <h1><img src="/img/login_logo.jpg" alt="대방열림고시학원"></h1>
                   <input type="text" name="user_code" id="user_code" style="text-align:center;" placeholder="OTP코드" class="req" onkeydown="javascript:if (event.keyCode == 13) { actionLogin(); }">
-                  <button type="button" onclick="actionLogin()">전송!</button>
-                  
-                </div>
+				  @if($encodedKey == 'NONE')
+					<button type="button" onClick="fnAjaxOtpCall()">신규생성</button>
+				  @endif                  
+				<button type="button" onclick="actionLogin()">전송!</button>
+				</div>
               </section>
           </fieldset>
         </div>

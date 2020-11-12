@@ -13268,7 +13268,28 @@ function fnCodeIdAdd(codeGb){
     </div>
 </section>
 @elseif(request()->segment(2) == 'site' && request()->segment(3) == 'otp')
+<script type="text/javascript">
+
+function fnAjaxOtpCall(){
+	if(!confirm("기존 OTP코드는 사용이 불가합니다. 실행하시겠습니까?")){
+		return;
+	}
+	var url = '/getBarcodeURL';
+	var param = {id:$("#id").val()};
+	commonUtil.AjaxSynCall(url,param,'json','',fnAjaxOtpCallBack);
+}
+function fnAjaxOtpCallBack(result){
+	$("#otpQrcode").prop("src",result.url);
+	$("#otpQrcode").css("display","block");
+	$("#otpImg").css("display","none");
+	$("#otpKeycode").html("(제공된키입력시)<br/>계정이름 : manager@yulimgosi.com<br/>키 : "+result.encodedKey);
+}
+$(function(){
+	//fnAjaxOtpCall();
+});
+</script>
 <section class="rightCont">
+	<input type="hidden" id="id" name="id" value="{{ $_SESSION['admin_id'] }}" />
     <div class="rightTitle">
         <h3>OTP신규등록</h3>
     </div>

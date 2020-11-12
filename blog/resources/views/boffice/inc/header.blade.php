@@ -16,7 +16,7 @@
                     <a href="/" target="_blank">학원홈페이지</a>
                 </li>
                 <li class="logout" @if(request()->segment(3) == 'video') class="on"@endif>
-                    <a href="/boffice/">로그아웃</a>
+                    <a href="/boffice/logout">로그아웃</a>
                 </li>
 			</ul>
 		</div>

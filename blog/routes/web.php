@@ -163,9 +163,15 @@ Route::get('/login/find_member', 'Front@');
 
 //리스트 시작
 
+Route::get('/boffice/logout', 'Back@logout');
+
 Route::get('/boffice/login', 'Back@login');
 
-Route::get('/boffice/login_otp', 'Back@login');
+Route::post('/boffice/actionOtpCheck', 'Back@actionOtpCheck');
+
+Route::post('/getBarcodeURL', 'Back@getBarcodeURL');
+
+Route::post('/boffice/login_otp', 'Back@login');
 
 Route::get('/boffice/lecture/cate/setting', 'Back@list');
 

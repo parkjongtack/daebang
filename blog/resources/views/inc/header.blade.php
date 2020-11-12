@@ -54,15 +54,37 @@
             </div>
             <div class="member_box">
                 <div class="inner">
-                    <a href="/site_info/login">로그인</a>
-                    <span>ㅣ</span>
-                    <a href="/site_info/join/join1">회원가입</a>
-                    <span>ㅣ</span>
-                    <a href="/site_info/my_page/shopping">장바구니</a>
-                    <span>ㅣ</span>
-                    <a href="/site_info/my_page/bbs/write/inquiry">고객센터</a>
-                    <span>ㅣ</span>
-                    <a href="/">HOME</a>
+                    <div class="left">
+                        <a href="https://www.youtube.com/c/yulimgosi028234700" target="_blank">
+                            <img src="/img/top_ico01.png" alt="아이콘">
+                        </a>
+                        <a href="https://www.facebook.com/yulimgosi028234700" target="_blank">
+                            <img src="/img/top_ico02.png" alt="아이콘">
+                        </a>
+                        <a href="https://www.instagram.com/yulimgosi028234700" target="_blank">
+                            <img src="/img/top_ico03.png" alt="아이콘">
+                        </a>
+                        <a href="https://cafe.naver.com/yulim21c" target="_blank">
+                            <img src="/img/top_ico04.png" alt="아이콘">
+                        </a>
+                        <a href="http://blog.naver.com/028234700" target="_blank">
+                            <img src="/img/top_ico05.png" alt="아이콘">
+                        </a>
+                        <a href="https://post.naver.com/028234700" target="_blank">
+                            <img src="/img/top_ico06.png" alt="아이콘">
+                        </a>
+                    </div>
+                    <div class="right">
+                        <a href="/site_info/login">로그인</a>
+                        <span>ㅣ</span>
+                        <a href="/site_info/join/join1">회원가입</a>
+                        <span>ㅣ</span>
+                        <a href="/site_info/my_page/shopping">장바구니</a>
+                        <span>ㅣ</span>
+                        <a href="/site_info/my_page/bbs/write/inquiry">고객센터</a>
+                        <span>ㅣ</span>
+                        <a href="/">HOME</a>
+                    </div>
                 </div>
             </div>
             <div class="logo_box">
